@@ -35,7 +35,7 @@ The notebooks are saved with their outputs, so the tables and figures show on Gi
     ├── final.csv             Step 3: test errors, test losses and times (five folds)
     ├── convergence.csv       training and held-out loss after every gradient calculation
     ├── leapfrog_trace.csv    LeapFrog time steps and gradient norms (diabetes and airfoil)
-    ├── figures/              the figures of the report (PDF)
+    ├── figures/              the figures of the report (PNG, 400 dpi)
     └── bayesian/
         ├── trials.csv        every Bayesian optimisation trial
         ├── final.csv         five-fold results of the grid and the Bayesian settings
