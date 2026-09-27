@@ -1,0 +1,565 @@
+problem,algorithm,trial,phase,params,mean_val_error,valid
+wine,SGD,1,default,"{""learning_rate"": 0.01, ""momentum"": 0.9, ""batch_size"": 32}",0.0225396825396825,True
+wine,SGD,2,latin_hypercube,"{""learning_rate"": 0.018074992762304887, ""momentum"": 0.26254653908237335, ""batch_size"": 16}",0.0225396825396825,True
+wine,SGD,3,latin_hypercube,"{""learning_rate"": 0.0012886276610558972, ""momentum"": 0.5865731611188969, ""batch_size"": 64}",0.1233333333333333,True
+wine,SGD,4,latin_hypercube,"{""learning_rate"": 0.16330373803389628, ""momentum"": 0.8309848448066073, ""batch_size"": 16}",0.0225396825396825,True
+wine,SGD,5,latin_hypercube,"{""learning_rate"": 0.009132829278916982, ""momentum"": 0.059785368539835196, ""batch_size"": 32}",0.028095238095238,True
+wine,SGD,6,expected_improvement,"{""learning_rate"": 0.0016240899673345007, ""momentum"": 0.503836884400713, ""batch_size"": 32}",0.0392063492063492,True
+wine,SGD,7,expected_improvement,"{""learning_rate"": 0.029032859373146883, ""momentum"": 0.9845875656864204, ""batch_size"": 16}",0.0223809523809523,True
+wine,SGD,8,expected_improvement,"{""learning_rate"": 0.29162511885736153, ""momentum"": 0.9021543814042453, ""batch_size"": 32}",0.0282539682539682,True
+wine,SGD,9,expected_improvement,"{""learning_rate"": 0.14510340384340364, ""momentum"": 0.02021221143816161, ""batch_size"": 16}",0.0225396825396825,True
+wine,SGD,10,expected_improvement,"{""learning_rate"": 0.010614737665547614, ""momentum"": 0.99, ""batch_size"": 16}",0.028095238095238,True
+wine,SGD,11,expected_improvement,"{""learning_rate"": 0.03291492039146917, ""momentum"": 0.99, ""batch_size"": 32}",0.0223809523809523,True
+wine,SGD,12,expected_improvement,"{""learning_rate"": 0.050742208195224965, ""momentum"": 0.2737251890874962, ""batch_size"": 16}",0.0225396825396825,True
+wine,SGD,13,expected_improvement,"{""learning_rate"": 0.2967203414905683, ""momentum"": 0.24706029639786461, ""batch_size"": 16}",0.0338095238095238,True
+wine,SGD,14,expected_improvement,"{""learning_rate"": 0.02448514949963244, ""momentum"": 0.7139647782399391, ""batch_size"": 32}",0.0225396825396825,True
+wine,SGD,15,expected_improvement,"{""learning_rate"": 0.29895367356474284, ""momentum"": 0.902298519408405, ""batch_size"": 64}",0.0336507936507936,True
+wine,SGD,16,expected_improvement,"{""learning_rate"": 0.0389585294893266, ""momentum"": 0.013328955649427586, ""batch_size"": 16}",0.0225396825396825,True
+wine,SGD,17,expected_improvement,"{""learning_rate"": 0.12282672847018182, ""momentum"": 0.9753620240445281, ""batch_size"": 32}",0.0226984126984126,True
+wine,SGD,18,expected_improvement,"{""learning_rate"": 0.10559778958747879, ""momentum"": 0.99, ""batch_size"": 16}",0.1079365079365079,True
+wine,SGD,19,expected_improvement,"{""learning_rate"": 0.013112886940366036, ""momentum"": 0.49003767427486844, ""batch_size"": 32}",0.0225396825396825,True
+wine,SGD,20,expected_improvement,"{""learning_rate"": 0.028570152446341365, ""momentum"": 0.28490543079392805, ""batch_size"": 16}",0.0225396825396825,True
+wine,SGD,21,expected_improvement,"{""learning_rate"": 0.05726934575926702, ""momentum"": 0.9391442958958994, ""batch_size"": 32}",0.028095238095238,True
+wine,SGD,22,expected_improvement,"{""learning_rate"": 0.14865885302448323, ""momentum"": 0.7473010639459383, ""batch_size"": 16}",0.028095238095238,True
+wine,SGD,23,expected_improvement,"{""learning_rate"": 0.04206684124621378, ""momentum"": 0.1273482537614119, ""batch_size"": 16}",0.0225396825396825,True
+wine,SGD,24,expected_improvement,"{""learning_rate"": 0.16536170362279135, ""momentum"": 0.08305286320945855, ""batch_size"": 16}",0.028095238095238,True
+wine,SGD,25,expected_improvement,"{""learning_rate"": 0.17563054718904306, ""momentum"": 0.6517677059080521, ""batch_size"": 32}",0.028095238095238,True
+wine,SGD,26,expected_improvement,"{""learning_rate"": 0.020192991963696456, ""momentum"": 0.8974601721160315, ""batch_size"": 16}",0.0225396825396825,True
+wine,SGD,27,expected_improvement,"{""learning_rate"": 0.04029123807733139, ""momentum"": 0.5510717221598957, ""batch_size"": 32}",0.0225396825396825,True
+wine,SGD,28,expected_improvement,"{""learning_rate"": 0.08802688711120915, ""momentum"": 0.19181188239409694, ""batch_size"": 32}",0.0225396825396825,True
+wine,SGD,29,expected_improvement,"{""learning_rate"": 0.005119983255494097, ""momentum"": 0.32100377100269295, ""batch_size"": 16}",0.028095238095238,True
+wine,SGD,30,expected_improvement,"{""learning_rate"": 0.0026721452024801302, ""momentum"": 0.8869642588067254, ""batch_size"": 16}",0.0225396825396825,True
+wine,SGD,31,expected_improvement,"{""learning_rate"": 0.003482365541499271, ""momentum"": 0.9299762443364119, ""batch_size"": 64}",0.0169841269841269,True
+wine,SGD,32,expected_improvement,"{""learning_rate"": 0.004764044262602315, ""momentum"": 0.99, ""batch_size"": 64}",0.0336507936507936,True
+wine,SGD,33,expected_improvement,"{""learning_rate"": 0.0017262830091698547, ""momentum"": 0.99, ""batch_size"": 16}",0.028095238095238,True
+wine,SGD,34,expected_improvement,"{""learning_rate"": 0.0029000300236823235, ""momentum"": 0.0258261457271928, ""batch_size"": 64}",0.1347619047619047,True
+wine,SGD,35,expected_improvement,"{""learning_rate"": 0.21629972878595116, ""momentum"": 0.7556533425987318, ""batch_size"": 16}",0.028095238095238,True
+wine,SGD,36,expected_improvement,"{""learning_rate"": 0.0010829909529516874, ""momentum"": 0.9360164205814645, ""batch_size"": 64}",0.0336507936507936,True
+wine,SGD,37,expected_improvement,"{""learning_rate"": 0.03329868865010808, ""momentum"": 0.33259382660900727, ""batch_size"": 32}",0.0225396825396825,True
+wine,SGD,38,expected_improvement,"{""learning_rate"": 0.0010000000000000002, ""momentum"": 0.7619958378934817, ""batch_size"": 16}",0.0392063492063492,True
+wine,SGD,39,expected_improvement,"{""learning_rate"": 0.007043182403095321, ""momentum"": 0.8588988320134644, ""batch_size"": 64}",0.0169841269841269,True
+wine,SGD,40,expected_improvement,"{""learning_rate"": 0.22740002687517, ""momentum"": 0.3639041921263836, ""batch_size"": 32}",0.028095238095238,True
+wine,SGD,41,expected_improvement,"{""learning_rate"": 0.0014213640642799477, ""momentum"": 0.99, ""batch_size"": 32}",0.028095238095238,True
+wine,SGD,42,expected_improvement,"{""learning_rate"": 0.005464393470420917, ""momentum"": 0.054732311921777736, ""batch_size"": 16}",0.028095238095238,True
+wine,SGD,43,expected_improvement,"{""learning_rate"": 0.240027500187546, ""momentum"": 0.002152872243701466, ""batch_size"": 32}",0.0225396825396825,True
+wine,SGD,44,expected_improvement,"{""learning_rate"": 0.003733940333121297, ""momentum"": 0.9769096942203865, ""batch_size"": 64}",0.028095238095238,True
+wine,SGD,45,expected_improvement,"{""learning_rate"": 0.04715946260614204, ""momentum"": 0.024632696654871698, ""batch_size"": 32}",0.0225396825396825,True
+wine,SGD,46,expected_improvement,"{""learning_rate"": 0.003064935262733805, ""momentum"": 0.7534696153115481, ""batch_size"": 32}",0.028095238095238,True
+wine,SGD,47,expected_improvement,"{""learning_rate"": 0.2719064514417587, ""momentum"": 0.4553607601138494, ""batch_size"": 64}",0.028095238095238,True
+wine,SGD,48,expected_improvement,"{""learning_rate"": 0.0010724374202674774, ""momentum"": 0.015143074464819346, ""batch_size"": 32}",0.2634920634920635,True
+wine,SGD,49,expected_improvement,"{""learning_rate"": 0.018987339826757953, ""momentum"": 0.16191881824370621, ""batch_size"": 32}",0.028095238095238,True
+wine,SCG,1,default,"{""sigma"": 0.0001, ""lambda_1"": 1e-06}",0.0336507936507936,True
+wine,SCG,2,latin_hypercube,"{""sigma"": 1.7545698986496873e-05, ""lambda_1"": 3.489759433634923e-08}",0.0334920634920635,True
+wine,SCG,3,latin_hypercube,"{""sigma"": 0.0006251542625351536, ""lambda_1"": 7.742893575468311e-05}",0.0336507936507936,True
+wine,SCG,4,latin_hypercube,"{""sigma"": 6.950830742140102e-05, ""lambda_1"": 9.07078990673154e-06}",0.0279365079365079,True
+wine,SCG,5,latin_hypercube,"{""sigma"": 0.00018190812218448347, ""lambda_1"": 3.208631003181455e-07}",0.0336507936507936,True
+wine,SCG,6,expected_improvement,"{""sigma"": 0.0005244261099608698, ""lambda_1"": 6.754417026267643e-06}",0.0336507936507936,True
+wine,SCG,7,expected_improvement,"{""sigma"": 6.688859332004994e-05, ""lambda_1"": 8.92874600543875e-06}",0.0336507936507936,True
+wine,SCG,8,expected_improvement,"{""sigma"": 7.176856737964502e-05, ""lambda_1"": 9.025059653521546e-06}",0.0336507936507936,True
+wine,SCG,9,expected_improvement,"{""sigma"": 6.931100376156079e-05, ""lambda_1"": 1.0213913456153857e-05}",0.0336507936507936,True
+wine,LeapFrog,1,default,"{""dt"": 0.5, ""max_step"": 1.0, ""m"": 3, ""delta_1"": 0.001}",0.0112698412698412,True
+wine,LeapFrog,2,latin_hypercube,"{""dt"": 0.15993325764925667, ""max_step"": 0.9546495520279044, ""m"": 3, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,3,latin_hypercube,"{""dt"": 0.46975663203552204, ""max_step"": 1.9679385387213535, ""m"": 4, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,4,latin_hypercube,"{""dt"": 0.6685078291295988, ""max_step"": 1.3682766699803757, ""m"": 5, ""delta_1"": 0.001}",0.0279365079365079,True
+wine,LeapFrog,5,latin_hypercube,"{""dt"": 0.22910545741591942, ""max_step"": 0.7918463035251722, ""m"": 2, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,6,expected_improvement,"{""dt"": 0.5074190239887838, ""max_step"": 0.881701284879902, ""m"": 3, ""delta_1"": 0.001}",0.0112698412698412,True
+wine,LeapFrog,7,expected_improvement,"{""dt"": 1.0, ""max_step"": 1.0010348578954855, ""m"": 3, ""delta_1"": 0.001}",0.0225396825396825,True
+wine,LeapFrog,8,expected_improvement,"{""dt"": 0.36196790374030374, ""max_step"": 0.7736915158701428, ""m"": 3, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,9,expected_improvement,"{""dt"": 0.10038694027173531, ""max_step"": 0.5117870174489889, ""m"": 5, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,10,expected_improvement,"{""dt"": 0.5728000247258975, ""max_step"": 1.4809281322470116, ""m"": 2, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,11,expected_improvement,"{""dt"": 0.10027001309512112, ""max_step"": 1.2364937918594694, ""m"": 2, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,12,expected_improvement,"{""dt"": 0.22300387131074664, ""max_step"": 1.1779264981901134, ""m"": 5, ""delta_1"": 0.001}",0.0112698412698412,True
+wine,LeapFrog,13,expected_improvement,"{""dt"": 0.2600207496144746, ""max_step"": 1.808983092512244, ""m"": 5, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,14,expected_improvement,"{""dt"": 0.2133975727198741, ""max_step"": 1.4622732965941636, ""m"": 5, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,15,expected_improvement,"{""dt"": 0.22552400308243595, ""max_step"": 0.6818222992705589, ""m"": 5, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,16,expected_improvement,"{""dt"": 0.5080537932692145, ""max_step"": 0.9722622330485675, ""m"": 3, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,17,expected_improvement,"{""dt"": 0.5065050970254673, ""max_step"": 0.8571328447062676, ""m"": 3, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,18,expected_improvement,"{""dt"": 0.21178618423942985, ""max_step"": 1.172150684345321, ""m"": 5, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,19,expected_improvement,"{""dt"": 0.5082894049867107, ""max_step"": 0.8979844458585601, ""m"": 3, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,20,expected_improvement,"{""dt"": 0.4977415325050554, ""max_step"": 1.0060507305588968, ""m"": 3, ""delta_1"": 0.001}",0.0279365079365079,True
+wine,LeapFrog,21,expected_improvement,"{""dt"": 0.5031951545377485, ""max_step"": 0.9890293658529317, ""m"": 3, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,22,expected_improvement,"{""dt"": 0.5007250689562246, ""max_step"": 0.9945719079302573, ""m"": 3, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,23,expected_improvement,"{""dt"": 0.5084301834632764, ""max_step"": 0.9985291893829593, ""m"": 3, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,24,expected_improvement,"{""dt"": 0.22869721417531325, ""max_step"": 1.1632275965128922, ""m"": 5, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,25,expected_improvement,"{""dt"": 0.42329248299507377, ""max_step"": 0.977397462239386, ""m"": 3, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,26,expected_improvement,"{""dt"": 0.21975075617251053, ""max_step"": 1.19261923262804, ""m"": 5, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,27,expected_improvement,"{""dt"": 0.4981233384893682, ""max_step"": 0.8723246491315321, ""m"": 4, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,28,expected_improvement,"{""dt"": 0.5108474896403448, ""max_step"": 0.9828935263054455, ""m"": 3, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,29,expected_improvement,"{""dt"": 0.4890880780807626, ""max_step"": 0.9588315596792465, ""m"": 3, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,30,expected_improvement,"{""dt"": 0.5178325174663883, ""max_step"": 0.86990335987899, ""m"": 3, ""delta_1"": 0.001}",0.0112698412698412,True
+wine,LeapFrog,31,expected_improvement,"{""dt"": 0.5305590927744734, ""max_step"": 0.8667704262552931, ""m"": 3, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,32,expected_improvement,"{""dt"": 0.5143950805331049, ""max_step"": 0.8839633753597583, ""m"": 3, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,33,expected_improvement,"{""dt"": 0.5116238424668195, ""max_step"": 0.8724000217844177, ""m"": 3, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,34,expected_improvement,"{""dt"": 0.49879593907846353, ""max_step"": 0.8843845271589275, ""m"": 3, ""delta_1"": 0.001}",0.0223809523809523,True
+wine,LeapFrog,35,expected_improvement,"{""dt"": 0.5096317881107308, ""max_step"": 0.8312768079448509, ""m"": 3, ""delta_1"": 0.001}",0.0168253968253968,True
+wine,LeapFrog,36,expected_improvement,"{""dt"": 0.4949953869687173, ""max_step"": 0.8087010333070774, ""m"": 3, ""delta_1"": 0.001}",0.0168253968253968,True
+breast_cancer,SGD,1,default,"{""learning_rate"": 0.01, ""momentum"": 0.9, ""batch_size"": 32}",0.0333799099518708,True
+breast_cancer,SGD,2,latin_hypercube,"{""learning_rate"": 0.03129995520899632, ""momentum"": 0.2004064470388552, ""batch_size"": 32}",0.0298556124825337,True
+breast_cancer,SGD,3,latin_hypercube,"{""learning_rate"": 0.01002824475261778, ""momentum"": 0.8969417634088536, ""batch_size"": 16}",0.0280857009781089,True
+breast_cancer,SGD,4,latin_hypercube,"{""learning_rate"": 0.07370101935509386, ""momentum"": 0.5701278858774596, ""batch_size"": 32}",0.0280857009781089,True
+breast_cancer,SGD,5,latin_hypercube,"{""learning_rate"": 0.002241924361806038, ""momentum"": 0.4796480251974893, ""batch_size"": 64}",0.0245924545877969,True
+breast_cancer,SGD,6,expected_improvement,"{""learning_rate"": 0.0010000000000000002, ""momentum"": 0.7965157979292355, ""batch_size"": 64}",0.0228380686228846,True
+breast_cancer,SGD,7,expected_improvement,"{""learning_rate"": 0.29348392256886, ""momentum"": 0.29268135962695013, ""batch_size"": 64}",0.0281167520571339,True
+breast_cancer,SGD,8,expected_improvement,"{""learning_rate"": 0.2982300716757285, ""momentum"": 0.8220432285726792, ""batch_size"": 16}",0.0403974538115199,True
+breast_cancer,SGD,9,expected_improvement,"{""learning_rate"": 0.0010000000000000002, ""momentum"": 0.5819594193454883, ""batch_size"": 16}",0.0245924545877969,True
+breast_cancer,SGD,10,expected_improvement,"{""learning_rate"": 0.028494060528610296, ""momentum"": 0.9025206235150064, ""batch_size"": 64}",0.0351342959167831,True
+breast_cancer,SGD,11,expected_improvement,"{""learning_rate"": 0.001261562933508452, ""momentum"": 0.99, ""batch_size"": 64}",0.0333799099518708,True
+breast_cancer,SGD,12,expected_improvement,"{""learning_rate"": 0.03897509377511616, ""momentum"": 0.8024536004492909, ""batch_size"": 32}",0.0280857009781089,True
+breast_cancer,SGD,13,expected_improvement,"{""learning_rate"": 0.0010000000000000002, ""momentum"": 0.7897443475091183, ""batch_size"": 64}",0.0228380686228846,True
+breast_cancer,SGD,14,expected_improvement,"{""learning_rate"": 0.0010000000000000002, ""momentum"": 0.766619860115508, ""batch_size"": 32}",0.0245924545877969,True
+breast_cancer,SGD,15,expected_improvement,"{""learning_rate"": 0.001038755001773398, ""momentum"": 0.8338870510789166, ""batch_size"": 64}",0.0263623660922217,True
+breast_cancer,SGD,16,expected_improvement,"{""learning_rate"": 0.0021123496658979374, ""momentum"": 0.42035423392113397, ""batch_size"": 32}",0.0281167520571339,True
+breast_cancer,SGD,17,expected_improvement,"{""learning_rate"": 0.002115769105508866, ""momentum"": 0.9428007423721713, ""batch_size"": 64}",0.0245924545877969,True
+breast_cancer,SGD,18,expected_improvement,"{""learning_rate"": 0.0010992591993384119, ""momentum"": 0.669136266627295, ""batch_size"": 16}",0.0245924545877969,True
+breast_cancer,SGD,19,expected_improvement,"{""learning_rate"": 0.0026534716572486306, ""momentum"": 0.9113531565594186, ""batch_size"": 64}",0.0245924545877969,True
+breast_cancer,SGD,20,expected_improvement,"{""learning_rate"": 0.0011635516110951526, ""momentum"": 0.3483454852043307, ""batch_size"": 32}",0.0263468405527092,True
+breast_cancer,SGD,21,expected_improvement,"{""learning_rate"": 0.003183064823546318, ""momentum"": 0.2292130378683718, ""batch_size"": 64}",0.0245924545877969,True
+breast_cancer,SGD,22,expected_improvement,"{""learning_rate"": 0.003081895216769076, ""momentum"": 0.012286189041838296, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,23,expected_improvement,"{""learning_rate"": 0.003109715838760192, ""momentum"": 0.010606800430529474, ""batch_size"": 16}",0.0245924545877969,True
+breast_cancer,SGD,24,expected_improvement,"{""learning_rate"": 0.0033998038744836585, ""momentum"": 0.015495787577661005, ""batch_size"": 32}",0.0281167520571339,True
+breast_cancer,SGD,25,expected_improvement,"{""learning_rate"": 0.002913587561015863, ""momentum"": 0.03145650296122948, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,26,expected_improvement,"{""learning_rate"": 0.0029999746939246945, ""momentum"": 0.10814011117960351, ""batch_size"": 32}",0.0281167520571339,True
+breast_cancer,SGD,27,expected_improvement,"{""learning_rate"": 0.0029416198081217756, ""momentum"": 7.396803625139866e-05, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,28,expected_improvement,"{""learning_rate"": 0.003038805783454844, ""momentum"": 0.029830453253930127, ""batch_size"": 32}",0.0228535941623971,True
+breast_cancer,SGD,29,expected_improvement,"{""learning_rate"": 0.0028459112278632808, ""momentum"": 0.0, ""batch_size"": 32}",0.0228380686228846,True
+breast_cancer,SGD,30,expected_improvement,"{""learning_rate"": 0.0030410703589592073, ""momentum"": 0.0, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,31,expected_improvement,"{""learning_rate"": 0.002620994209736409, ""momentum"": 0.04925284706092361, ""batch_size"": 32}",0.0228380686228846,True
+breast_cancer,SGD,32,expected_improvement,"{""learning_rate"": 0.0027646917904946616, ""momentum"": 0.020433888939262918, ""batch_size"": 16}",0.0245924545877969,True
+breast_cancer,SGD,33,expected_improvement,"{""learning_rate"": 0.0029967890621588967, ""momentum"": 0.002816871717639628, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,34,expected_improvement,"{""learning_rate"": 0.003135391178929728, ""momentum"": 0.0, ""batch_size"": 32}",0.0228535941623971,True
+breast_cancer,SGD,35,expected_improvement,"{""learning_rate"": 0.002789734096114777, ""momentum"": 0.050071381395120074, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,36,expected_improvement,"{""learning_rate"": 0.0028723505026621117, ""momentum"": 0.03074427990179967, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,37,expected_improvement,"{""learning_rate"": 0.0027076445547106285, ""momentum"": 0.08659004017532018, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,38,expected_improvement,"{""learning_rate"": 0.0024916504168747875, ""momentum"": 0.13260987855067324, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,39,expected_improvement,"{""learning_rate"": 0.002604591948527538, ""momentum"": 0.1277954266982713, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,40,expected_improvement,"{""learning_rate"": 0.002519654963610321, ""momentum"": 0.09228643739410587, ""batch_size"": 32}",0.0228380686228846,True
+breast_cancer,SGD,41,expected_improvement,"{""learning_rate"": 0.0025194148109721876, ""momentum"": 0.18113400751681352, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,42,expected_improvement,"{""learning_rate"": 0.002413710844607559, ""momentum"": 0.19357960891769094, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,43,expected_improvement,"{""learning_rate"": 0.002230180596990394, ""momentum"": 0.16072799659525966, ""batch_size"": 32}",0.0228380686228846,True
+breast_cancer,SGD,44,expected_improvement,"{""learning_rate"": 0.0025265001584488123, ""momentum"": 0.2506351490212139, ""batch_size"": 32}",0.0281167520571339,True
+breast_cancer,SGD,45,expected_improvement,"{""learning_rate"": 0.0023602869381267716, ""momentum"": 0.12622131334749398, ""batch_size"": 32}",0.0228380686228846,True
+breast_cancer,SGD,46,expected_improvement,"{""learning_rate"": 0.0024628323094659584, ""momentum"": 0.17785531870971383, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,47,expected_improvement,"{""learning_rate"": 0.0025547076452741477, ""momentum"": 0.16726394326194888, ""batch_size"": 32}",0.0210836826579723,True
+breast_cancer,SGD,48,expected_improvement,"{""learning_rate"": 0.002040642752046436, ""momentum"": 0.23419750273183684, ""batch_size"": 32}",0.0228380686228846,True
+breast_cancer,SGD,49,expected_improvement,"{""learning_rate"": 0.001893299574263007, ""momentum"": 0.16485114687305613, ""batch_size"": 32}",0.0245924545877969,True
+breast_cancer,SCG,1,default,"{""sigma"": 0.0001, ""lambda_1"": 1e-06}",0.0351498214562956,True
+breast_cancer,SCG,2,latin_hypercube,"{""sigma"": 0.00012730814002398665, ""lambda_1"": 3.667184435721941e-06}",0.0404285048905449,True
+breast_cancer,SCG,3,latin_hypercube,"{""sigma"": 2.0962427581401092e-05, ""lambda_1"": 1.2758427549349203e-08}",0.0404285048905449,True
+breast_cancer,SCG,4,latin_hypercube,"{""sigma"": 4.594658299904685e-05, ""lambda_1"": 4.3015324681464484e-07}",0.0386585933861201,True
+breast_cancer,SCG,5,latin_hypercube,"{""sigma"": 0.0009944969320333733, ""lambda_1"": 4.765762352428886e-05}",0.0369042074212078,True
+breast_cancer,SCG,6,expected_improvement,"{""sigma"": 0.00010060801940239795, ""lambda_1"": 9.309650767705696e-07}",0.0368886818816953,True
+breast_cancer,SCG,7,expected_improvement,"{""sigma"": 0.00010074610949957114, ""lambda_1"": 1.0727932018301729e-06}",0.0368886818816953,True
+breast_cancer,SCG,8,expected_improvement,"{""sigma"": 9.801020282842116e-05, ""lambda_1"": 1.5339524555838942e-06}",0.0404129793510324,True
+breast_cancer,SCG,9,expected_improvement,"{""sigma"": 9.59423187929201e-05, ""lambda_1"": 1.038338495156105e-06}",0.0421984163949697,True
+breast_cancer,LeapFrog,1,default,"{""dt"": 0.5, ""max_step"": 1.0, ""m"": 3, ""delta_1"": 0.001}",0.031609998447446,True
+breast_cancer,LeapFrog,2,latin_hypercube,"{""dt"": 0.23473256601307435, ""max_step"": 1.113036117890462, ""m"": 3, ""delta_1"": 0.001}",0.0334109610308958,True
+breast_cancer,LeapFrog,3,latin_hypercube,"{""dt"": 0.8843105767180577, ""max_step"": 0.5893328193798048, ""m"": 4, ""delta_1"": 0.001}",0.0316565750659835,True
+breast_cancer,LeapFrog,4,latin_hypercube,"{""dt"": 0.34941228107932787, ""max_step"": 1.9052738409689849, ""m"": 5, ""delta_1"": 0.001}",0.031609998447446,True
+breast_cancer,LeapFrog,5,latin_hypercube,"{""dt"": 0.10838564407525206, ""max_step"": 1.5569269596160564, ""m"": 2, ""delta_1"": 0.001}",0.0351498214562956,True
+breast_cancer,LeapFrog,6,expected_improvement,"{""dt"": 0.536945469761297, ""max_step"": 0.9877422741395594, ""m"": 5, ""delta_1"": 0.001}",0.031609998447446,True
+breast_cancer,LeapFrog,7,expected_improvement,"{""dt"": 0.496307808207962, ""max_step"": 1.992649406509378, ""m"": 3, ""delta_1"": 0.001}",0.0333954354913833,True
+breast_cancer,LeapFrog,8,expected_improvement,"{""dt"": 0.8671988954317723, ""max_step"": 0.5004486793269827, ""m"": 2, ""delta_1"": 0.001}",0.0298866635615587,True
+breast_cancer,LeapFrog,9,expected_improvement,"{""dt"": 1.0, ""max_step"": 0.5, ""m"": 2, ""delta_1"": 0.001}",0.0351653469958081,True
+breast_cancer,LeapFrog,10,expected_improvement,"{""dt"": 0.846889543486587, ""max_step"": 0.5, ""m"": 2, ""delta_1"": 0.001}",0.0369197329607203,True
+breast_cancer,LeapFrog,11,expected_improvement,"{""dt"": 0.8806957610643737, ""max_step"": 0.5, ""m"": 2, ""delta_1"": 0.001}",0.0333954354913833,True
+breast_cancer,LeapFrog,12,expected_improvement,"{""dt"": 0.8703792544668723, ""max_step"": 0.5162762596591555, ""m"": 2, ""delta_1"": 0.001}",0.031641049526471,True
+breast_cancer,LeapFrog,13,expected_improvement,"{""dt"": 0.5234730641799613, ""max_step"": 0.9540641707976709, ""m"": 5, ""delta_1"": 0.001}",0.0298866635615587,True
+breast_cancer,LeapFrog,14,expected_improvement,"{""dt"": 0.5251359073928916, ""max_step"": 0.9909821092261532, ""m"": 5, ""delta_1"": 0.001}",0.031641049526471,True
+breast_cancer,LeapFrog,15,expected_improvement,"{""dt"": 0.5153184637940559, ""max_step"": 0.8598206753334436, ""m"": 5, ""delta_1"": 0.001}",0.0316255239869585,True
+breast_cancer,LeapFrog,16,expected_improvement,"{""dt"": 0.5136060108538817, ""max_step"": 0.9509746768232245, ""m"": 3, ""delta_1"": 0.001}",0.0298556124825337,True
+breast_cancer,LeapFrog,17,expected_improvement,"{""dt"": 0.5234554620539638, ""max_step"": 0.9120143615087106, ""m"": 3, ""delta_1"": 0.001}",0.0333799099518708,True
+breast_cancer,LeapFrog,18,expected_improvement,"{""dt"": 0.5067678975662523, ""max_step"": 0.9743106779256812, ""m"": 3, ""delta_1"": 0.001}",0.0333799099518708,True
+breast_cancer,LeapFrog,19,expected_improvement,"{""dt"": 0.5093834503010167, ""max_step"": 0.9432932061410289, ""m"": 3, ""delta_1"": 0.001}",0.0333799099518708,True
+breast_cancer,LeapFrog,20,expected_improvement,"{""dt"": 0.5293515081671626, ""max_step"": 0.9533154050319523, ""m"": 3, ""delta_1"": 0.001}",0.0316255239869585,True
+breast_cancer,LeapFrog,21,expected_improvement,"{""dt"": 0.5265886298450757, ""max_step"": 0.9723763840712621, ""m"": 4, ""delta_1"": 0.001}",0.0404440304300574,True
+breast_cancer,LeapFrog,22,expected_improvement,"{""dt"": 0.5186075044679753, ""max_step"": 0.8390645561782187, ""m"": 5, ""delta_1"": 0.001}",0.0316255239869585,True
+breast_cancer,LeapFrog,23,expected_improvement,"{""dt"": 0.5189925368831055, ""max_step"": 0.9953442435357567, ""m"": 3, ""delta_1"": 0.001}",0.0281012265176214,True
+breast_cancer,LeapFrog,24,expected_improvement,"{""dt"": 0.5211956848839012, ""max_step"": 1.0794535571580868, ""m"": 3, ""delta_1"": 0.001}",0.031609998447446,True
+breast_cancer,LeapFrog,25,expected_improvement,"{""dt"": 0.5353129869035321, ""max_step"": 0.8980181733258783, ""m"": 5, ""delta_1"": 0.001}",0.0369197329607203,True
+breast_cancer,LeapFrog,26,expected_improvement,"{""dt"": 0.49309710371169274, ""max_step"": 1.0641220058211807, ""m"": 3, ""delta_1"": 0.001}",0.0369042074212078,True
+breast_cancer,LeapFrog,27,expected_improvement,"{""dt"": 0.5202844385005316, ""max_step"": 1.0269247626373876, ""m"": 3, ""delta_1"": 0.001}",0.0333954354913833,True
+breast_cancer,LeapFrog,28,expected_improvement,"{""dt"": 0.536377432795882, ""max_step"": 0.9964098923606501, ""m"": 3, ""delta_1"": 0.001}",0.0386896444651451,True
+breast_cancer,LeapFrog,29,expected_improvement,"{""dt"": 0.5276023805441966, ""max_step"": 1.134769192862393, ""m"": 3, ""delta_1"": 0.001}",0.0333799099518708,True
+breast_cancer,LeapFrog,30,expected_improvement,"{""dt"": 0.5148263890313383, ""max_step"": 0.9618163909616693, ""m"": 3, ""delta_1"": 0.001}",0.0316255239869585,True
+breast_cancer,LeapFrog,31,expected_improvement,"{""dt"": 0.534986502152057, ""max_step"": 1.0971741571423306, ""m"": 3, ""delta_1"": 0.001}",0.0369352585002328,True
+breast_cancer,LeapFrog,32,expected_improvement,"{""dt"": 0.5198622916792118, ""max_step"": 0.9815315600496045, ""m"": 3, ""delta_1"": 0.001}",0.0316255239869585,True
+breast_cancer,LeapFrog,33,expected_improvement,"{""dt"": 0.5024210686068857, ""max_step"": 0.97244870301651, ""m"": 5, ""delta_1"": 0.001}",0.0298711380220462,True
+breast_cancer,LeapFrog,34,expected_improvement,"{""dt"": 0.47889142702710075, ""max_step"": 0.9677106147873622, ""m"": 5, ""delta_1"": 0.001}",0.0351342959167831,True
+breast_cancer,LeapFrog,35,expected_improvement,"{""dt"": 0.5115227135456555, ""max_step"": 1.0144189710187774, ""m"": 3, ""delta_1"": 0.001}",0.0333799099518708,True
+breast_cancer,LeapFrog,36,expected_improvement,"{""dt"": 0.501302301266088, ""max_step"": 0.9546319855793508, ""m"": 5, ""delta_1"": 0.001}",0.0298556124825337,True
+digits,SGD,1,default,"{""learning_rate"": 0.01, ""momentum"": 0.9, ""batch_size"": 32}",0.0295017022593624,True
+digits,SGD,2,latin_hypercube,"{""learning_rate"": 0.2131052924277454, ""momentum"": 0.32462267705055287, ""batch_size"": 32}",0.0267192819560507,True
+digits,SGD,3,latin_hypercube,"{""learning_rate"": 0.009601068653960269, ""momentum"": 0.06544448869080809, ""batch_size"": 32}",0.0306112658619622,True
+digits,SGD,4,latin_hypercube,"{""learning_rate"": 0.06971416305637278, ""momentum"": 0.7016834684550858, ""batch_size"": 16}",0.0272748375116063,True
+digits,SGD,5,latin_hypercube,"{""learning_rate"": 0.0033588857940791556, ""momentum"": 0.8194156622705396, ""batch_size"": 64}",0.0311668214175177,True
+digits,SGD,6,expected_improvement,"{""learning_rate"": 0.29555814146901954, ""momentum"": 0.9349864948091066, ""batch_size"": 64}",0.0339507892293407,True
+digits,SGD,7,expected_improvement,"{""learning_rate"": 0.28462456643454187, ""momentum"": 0.9651331862289759, ""batch_size"": 16}",0.1124280408542246,True
+digits,SGD,8,expected_improvement,"{""learning_rate"": 0.22782435554038222, ""momentum"": 0.5558410363330746, ""batch_size"": 16}",0.0289461467038068,True
+digits,SGD,9,expected_improvement,"{""learning_rate"": 0.03504183561698069, ""momentum"": 0.5020730952890223, ""batch_size"": 32}",0.0283874961312287,True
+digits,SGD,10,expected_improvement,"{""learning_rate"": 0.11543778573710234, ""momentum"": 0.003407837877644624, ""batch_size"": 16}",0.0272748375116063,True
+digits,SGD,11,expected_improvement,"{""learning_rate"": 0.001070707309517005, ""momentum"": 0.20987884200794757, ""batch_size"": 16}",0.0461977715877437,True
+digits,SGD,12,expected_improvement,"{""learning_rate"": 0.3, ""momentum"": 0.312475293497529, ""batch_size"": 32}",0.0272748375116063,True
+digits,SGD,13,expected_improvement,"{""learning_rate"": 0.0027006569066154347, ""momentum"": 0.6425145746337596, ""batch_size"": 16}",0.0300572578149179,True
+digits,SGD,14,expected_improvement,"{""learning_rate"": 0.0010155030620012588, ""momentum"": 0.41986453129032, ""batch_size"": 64}",0.0829325286289074,True
+digits,SGD,15,expected_improvement,"{""learning_rate"": 0.2338305834841551, ""momentum"": 0.7241069578989927, ""batch_size"": 32}",0.0278319405756731,True
+digits,SGD,16,expected_improvement,"{""learning_rate"": 0.16291523706697222, ""momentum"": 0.0034334119172668943, ""batch_size"": 64}",0.0283874961312287,True
+digits,SGD,17,expected_improvement,"{""learning_rate"": 0.001324962908383894, ""momentum"": 0.4146542749590707, ""batch_size"": 32}",0.0500943980191891,True
+digits,SGD,18,expected_improvement,"{""learning_rate"": 0.3, ""momentum"": 0.453690510158144, ""batch_size"": 32}",0.0289461467038068,True
+digits,SGD,19,expected_improvement,"{""learning_rate"": 0.3, ""momentum"": 0.5848152361976524, ""batch_size"": 32}",0.0295032497678737,True
+digits,SGD,20,expected_improvement,"{""learning_rate"": 0.29520214785157267, ""momentum"": 0.0009234866382675443, ""batch_size"": 32}",0.0272763850201176,True
+digits,SGD,21,expected_improvement,"{""learning_rate"": 0.002330995046309333, ""momentum"": 0.7384314933690843, ""batch_size"": 32}",0.0322825750541628,True
+digits,SGD,22,expected_improvement,"{""learning_rate"": 0.20025533441005608, ""momentum"": 0.12060947784405911, ""batch_size"": 16}",0.0267192819560507,True
+digits,SGD,23,expected_improvement,"{""learning_rate"": 0.036740769121370656, ""momentum"": 0.4866962473391684, ""batch_size"": 16}",0.0289445991952955,True
+digits,SGD,24,expected_improvement,"{""learning_rate"": 0.019813277931519636, ""momentum"": 0.8605387044454514, ""batch_size"": 32}",0.0295017022593624,True
+digits,SGD,25,expected_improvement,"{""learning_rate"": 0.0013073415945572056, ""momentum"": 0.9773732930876969, ""batch_size"": 64}",0.0311699164345403,True
+digits,SGD,26,expected_improvement,"{""learning_rate"": 0.27115766338668956, ""momentum"": 0.7257560396802224, ""batch_size"": 64}",0.0283874961312287,True
+digits,SGD,27,expected_improvement,"{""learning_rate"": 0.26571714293305376, ""momentum"": 0.9693037413840446, ""batch_size"": 32}",0.0706855462705045,True
+digits,SGD,28,expected_improvement,"{""learning_rate"": 0.2142726557829234, ""momentum"": 0.0, ""batch_size"": 16}",0.0267192819560507,True
+digits,SGD,29,expected_improvement,"{""learning_rate"": 0.0011051757399484657, ""momentum"": 0.894477519637157, ""batch_size"": 32}",0.0306112658619622,True
+digits,SGD,30,expected_improvement,"{""learning_rate"": 0.001106378194429958, ""momentum"": 0.11115696392318089, ""batch_size"": 64}",0.109645620550913,True
+digits,SGD,31,expected_improvement,"{""learning_rate"": 0.04956443366259872, ""momentum"": 0.6992310010383209, ""batch_size"": 32}",0.0283874961312287,True
+digits,SGD,32,expected_improvement,"{""learning_rate"": 0.3, ""momentum"": 0.37772271463114027, ""batch_size"": 16}",0.0289476942123181,True
+digits,SGD,33,expected_improvement,"{""learning_rate"": 0.0015739829921376804, ""momentum"": 0.6457038150190221, ""batch_size"": 64}",0.0500943980191891,True
+digits,SGD,34,expected_improvement,"{""learning_rate"": 0.3, ""momentum"": 0.0, ""batch_size"": 32}",0.0272763850201176,True
+digits,SGD,35,expected_improvement,"{""learning_rate"": 0.024689593930910986, ""momentum"": 0.631459245022529, ""batch_size"": 16}",0.0289445991952955,True
+digits,SGD,36,expected_improvement,"{""learning_rate"": 0.022227899912502142, ""momentum"": 0.7382440740964171, ""batch_size"": 32}",0.0283874961312287,True
+digits,SGD,37,expected_improvement,"{""learning_rate"": 0.3, ""momentum"": 0.0, ""batch_size"": 64}",0.02838904363974,True
+digits,SGD,38,expected_improvement,"{""learning_rate"": 0.3, ""momentum"": 0.06706829361391968, ""batch_size"": 16}",0.0283905911482513,True
+digits,SGD,39,expected_improvement,"{""learning_rate"": 0.0012050121790787877, ""momentum"": 0.002245458096531537, ""batch_size"": 64}",0.1107567316620241,True
+digits,SGD,40,expected_improvement,"{""learning_rate"": 0.0033144018535502945, ""momentum"": 0.6353620782935302, ""batch_size"": 32}",0.031168368926029,True
+digits,SGD,41,expected_improvement,"{""learning_rate"": 0.3, ""momentum"": 0.26772958061503466, ""batch_size"": 64}",0.0278319405756731,True
+digits,SGD,42,expected_improvement,"{""learning_rate"": 0.017492401705594705, ""momentum"": 0.9876745751746729, ""batch_size"": 64}",0.0339445991952955,True
+digits,SGD,43,expected_improvement,"{""learning_rate"": 0.06257853901203372, ""momentum"": 0.24423728893012017, ""batch_size"": 16}",0.02838904363974,True
+digits,SGD,44,expected_improvement,"{""learning_rate"": 0.0010332547108330738, ""momentum"": 0.9123743739946791, ""batch_size"": 16}",0.0311699164345403,True
+digits,SGD,45,expected_improvement,"{""learning_rate"": 0.2574054885523142, ""momentum"": 0.49810326108657205, ""batch_size"": 64}",0.0272748375116063,True
+digits,SGD,46,expected_improvement,"{""learning_rate"": 0.08299145766125325, ""momentum"": 0.5735362019582825, ""batch_size"": 16}",0.0267177344475394,True
+digits,SGD,47,expected_improvement,"{""learning_rate"": 0.041318459396950474, ""momentum"": 0.709842606405486, ""batch_size"": 64}",0.0295001547508511,True
+digits,SGD,48,expected_improvement,"{""learning_rate"": 0.0010850854856145678, ""momentum"": 0.7945291276422404, ""batch_size"": 16}",0.0306112658619622,True
+digits,SGD,49,expected_improvement,"{""learning_rate"": 0.059445521200969534, ""momentum"": 0.19597903526727348, ""batch_size"": 32}",0.0283874961312287,True
+digits,SCG,1,default,"{""sigma"": 0.0001, ""lambda_1"": 1e-06}",0.0278334880841844,True
+digits,SCG,2,latin_hypercube,"{""sigma"": 0.00028267375398223423, ""lambda_1"": 1.5854198586332996e-08}",0.0278319405756731,True
+digits,SCG,3,latin_hypercube,"{""sigma"": 2.1644099936020046e-05, ""lambda_1"": 1.2610135727022407e-06}",0.026720829464562,True
+digits,SCG,4,latin_hypercube,"{""sigma"": 0.00045620123630229446, ""lambda_1"": 4.457964536998039e-07}",0.0272763850201176,True
+digits,SCG,5,latin_hypercube,"{""sigma"": 8.689767528535039e-05, ""lambda_1"": 1.9924567164419837e-05}",0.026720829464562,True
+digits,SCG,6,expected_improvement,"{""sigma"": 2.162218595199155e-05, ""lambda_1"": 1.181703824862661e-06}",0.0272763850201176,True
+digits,SCG,7,expected_improvement,"{""sigma"": 2.0495059336975217e-05, ""lambda_1"": 1.3221281296986358e-06}",0.026720829464562,True
+digits,SCG,8,expected_improvement,"{""sigma"": 3.3345698883635006e-05, ""lambda_1"": 1.843978674251953e-05}",0.0278334880841844,True
+digits,SCG,9,expected_improvement,"{""sigma"": 2.463236605241216e-05, ""lambda_1"": 1.3109481153187e-06}",0.0272763850201176,True
+digits,LeapFrog,1,default,"{""dt"": 0.5, ""max_step"": 1.0, ""m"": 3, ""delta_1"": 0.001}",0.0623259052924791,True
+digits,LeapFrog,2,latin_hypercube,"{""dt"": 0.26949434182941967, ""max_step"": 1.4495171151084907, ""m"": 3, ""delta_1"": 0.001}",0.0573290003095017,True
+digits,LeapFrog,3,latin_hypercube,"{""dt"": 0.16467120764314475, ""max_step"": 1.833236285076184, ""m"": 5, ""delta_1"": 0.001}",0.0573243577839678,True
+digits,LeapFrog,4,latin_hypercube,"{""dt"": 0.5295240487635183, ""max_step"": 0.6795383882881274, ""m"": 4, ""delta_1"": 0.001}",0.0517502321262767,True
+digits,LeapFrog,5,latin_hypercube,"{""dt"": 0.5888514914975072, ""max_step"": 1.0211543659920825, ""m"": 2, ""delta_1"": 0.001}",0.0556453110492107,True
+digits,LeapFrog,6,expected_improvement,"{""dt"": 0.417933359366979, ""max_step"": 0.6772705493034309, ""m"": 4, ""delta_1"": 0.001}",0.0612101516558341,True
+digits,LeapFrog,7,expected_improvement,"{""dt"": 0.5279159893711908, ""max_step"": 0.6891046406885977, ""m"": 4, ""delta_1"": 0.001}",0.0523073351903435,True
+digits,LeapFrog,8,expected_improvement,"{""dt"": 0.5360546855953834, ""max_step"": 0.6713061088203993, ""m"": 4, ""delta_1"": 0.001}",0.052862890745899,True
+digits,LeapFrog,9,expected_improvement,"{""dt"": 0.5244578980167813, ""max_step"": 0.652964984890873, ""m"": 4, ""delta_1"": 0.001}",0.0528628907458991,True
+digits,LeapFrog,10,expected_improvement,"{""dt"": 0.5311024208828861, ""max_step"": 0.6020872435522, ""m"": 4, ""delta_1"": 0.001}",0.0489740018570102,True
+digits,LeapFrog,11,expected_improvement,"{""dt"": 0.5314240750987073, ""max_step"": 0.5, ""m"": 4, ""delta_1"": 0.001}",0.0517486846177654,True
+digits,LeapFrog,12,expected_improvement,"{""dt"": 0.5337654111601963, ""max_step"": 0.5785068356645782, ""m"": 4, ""delta_1"": 0.001}",0.0489709068399876,True
+digits,LeapFrog,13,expected_improvement,"{""dt"": 0.25760585501634614, ""max_step"": 0.8624741033932906, ""m"": 2, ""delta_1"": 0.001}",0.0612086041473228,True
+digits,LeapFrog,14,expected_improvement,"{""dt"": 0.5573177738125916, ""max_step"": 0.5, ""m"": 4, ""delta_1"": 0.001}",0.0578721757969668,True
+digits,LeapFrog,15,expected_improvement,"{""dt"": 0.910987836920317, ""max_step"": 0.9130133710564159, ""m"": 4, ""delta_1"": 0.001}",0.0545326524295883,True
+digits,LeapFrog,16,expected_improvement,"{""dt"": 0.5326888588753191, ""max_step"": 0.5812940301003671, ""m"": 2, ""delta_1"": 0.001}",0.051199319096255,True
+digits,LeapFrog,17,expected_improvement,"{""dt"": 0.5333397639783319, ""max_step"": 0.5560892323127901, ""m"": 5, ""delta_1"": 0.001}",0.0556484060662333,True
+digits,LeapFrog,18,expected_improvement,"{""dt"": 0.5455328100527591, ""max_step"": 0.6124236949428504, ""m"": 2, ""delta_1"": 0.001}",0.0506437635406994,True
+digits,LeapFrog,19,expected_improvement,"{""dt"": 0.5524704075957947, ""max_step"": 0.8683482442814155, ""m"": 2, ""delta_1"": 0.001}",0.0578721757969668,True
+digits,LeapFrog,20,expected_improvement,"{""dt"": 0.5603716428329393, ""max_step"": 0.6137548891350517, ""m"": 2, ""delta_1"": 0.001}",0.0506437635406994,True
+digits,LeapFrog,21,expected_improvement,"{""dt"": 0.5718202692864436, ""max_step"": 0.5153012092797715, ""m"": 2, ""delta_1"": 0.001}",0.0550913030021665,True
+digits,LeapFrog,22,expected_improvement,"{""dt"": 0.536683653390517, ""max_step"": 0.5, ""m"": 2, ""delta_1"": 0.001}",0.050636025998143,True
+digits,LeapFrog,23,expected_improvement,"{""dt"": 0.5052824830584439, ""max_step"": 0.647477193667814, ""m"": 2, ""delta_1"": 0.001}",0.0528644382544103,True
+digits,LeapFrog,24,expected_improvement,"{""dt"": 0.5316953467982646, ""max_step"": 0.5860354184502119, ""m"": 4, ""delta_1"": 0.001}",0.0478613432373878,True
+digits,LeapFrog,25,expected_improvement,"{""dt"": 0.5405346615450679, ""max_step"": 0.5934314525434712, ""m"": 4, ""delta_1"": 0.001}",0.0500866604766326,True
+digits,LeapFrog,26,expected_improvement,"{""dt"": 0.5041361268943529, ""max_step"": 0.5851582038067566, ""m"": 4, ""delta_1"": 0.001}",0.0495280099040544,True
+digits,LeapFrog,27,expected_improvement,"{""dt"": 0.5169038229686063, ""max_step"": 0.5898389280402576, ""m"": 4, ""delta_1"": 0.001}",0.0500882079851439,True
+digits,LeapFrog,28,expected_improvement,"{""dt"": 0.5126881445151948, ""max_step"": 0.53682040044707, ""m"": 4, ""delta_1"": 0.001}",0.0545357474466109,True
+digits,LeapFrog,29,expected_improvement,"{""dt"": 0.47732210889247856, ""max_step"": 0.5933347194872639, ""m"": 4, ""delta_1"": 0.001}",0.0500789229340761,True
+digits,LeapFrog,30,expected_improvement,"{""dt"": 0.49417863148112673, ""max_step"": 0.6338361934758916, ""m"": 4, ""delta_1"": 0.001}",0.0517533271432992,True
+digits,LeapFrog,31,expected_improvement,"{""dt"": 0.4935467810270787, ""max_step"": 0.5955520434330179, ""m"": 4, ""delta_1"": 0.001}",0.0506406685236768,True
+digits,LeapFrog,32,expected_improvement,"{""dt"": 0.46412724455543747, ""max_step"": 0.6245924502232788, ""m"": 4, ""delta_1"": 0.001}",0.0539786443825441,True
+digits,LeapFrog,33,expected_improvement,"{""dt"": 0.4697495212380952, ""max_step"": 0.5407183623236145, ""m"": 4, ""delta_1"": 0.001}",0.0495295574125657,True
+digits,LeapFrog,34,expected_improvement,"{""dt"": 0.4511652303673236, ""max_step"": 0.5314371049805817, ""m"": 4, ""delta_1"": 0.001}",0.0473073351903435,True
+digits,LeapFrog,35,expected_improvement,"{""dt"": 0.4538403603829303, ""max_step"": 0.546204151278908, ""m"": 4, ""delta_1"": 0.001}",0.0489740018570102,True
+digits,LeapFrog,36,expected_improvement,"{""dt"": 0.4513588337995002, ""max_step"": 0.5, ""m"": 4, ""delta_1"": 0.001}",0.0523135252243887,True
+diabetes,SGD,1,default,"{""learning_rate"": 0.01, ""momentum"": 0.9, ""batch_size"": 32}",0.5322782843388658,True
+diabetes,SGD,2,latin_hypercube,"{""learning_rate"": 0.06375714090139836, ""momentum"": 0.2229636694518031, ""batch_size"": 32}",0.5351538335244836,True
+diabetes,SGD,3,latin_hypercube,"{""learning_rate"": 0.01714939469279668, ""momentum"": 0.8243451457727015, ""batch_size"": 32}",0.5322246844605345,True
+diabetes,SGD,4,latin_hypercube,"{""learning_rate"": 0.12771595773196667, ""momentum"": 0.47039384586866345, ""batch_size"": 16}",0.5884336945244302,True
+diabetes,SGD,5,latin_hypercube,"{""learning_rate"": 0.003738140203468614, ""momentum"": 0.5762253250286326, ""batch_size"": 64}",0.5277540990045301,True
+diabetes,SGD,6,expected_improvement,"{""learning_rate"": 0.2405739298053855, ""momentum"": 0.9298079103473088, ""batch_size"": 64}",0.6477581271203553,True
+diabetes,SGD,7,expected_improvement,"{""learning_rate"": 0.0010000000000000002, ""momentum"": 0.4234111228527558, ""batch_size"": 64}",0.6145069167039614,True
+diabetes,SGD,8,expected_improvement,"{""learning_rate"": 0.007435967389739809, ""momentum"": 0.6458579536667328, ""batch_size"": 64}",0.516259065841996,True
+diabetes,SGD,9,expected_improvement,"{""learning_rate"": 0.011285236723145206, ""momentum"": 0.0023898763078410044, ""batch_size"": 16}",0.5089167938748985,True
+diabetes,SGD,10,expected_improvement,"{""learning_rate"": 0.01484881980562765, ""momentum"": 0.4950501707746888, ""batch_size"": 32}",0.5129960990411176,True
+diabetes,SGD,11,expected_improvement,"{""learning_rate"": 0.009898613390285048, ""momentum"": 0.0, ""batch_size"": 32}",0.5178533120855768,True
+diabetes,SGD,12,expected_improvement,"{""learning_rate"": 0.023144128951523422, ""momentum"": 0.0, ""batch_size"": 16}",0.5180045749846435,True
+diabetes,SGD,13,expected_improvement,"{""learning_rate"": 0.008895174756756144, ""momentum"": 0.35399274589002394, ""batch_size"": 16}",0.5092945780431319,True
+diabetes,SGD,14,expected_improvement,"{""learning_rate"": 0.011939956521450943, ""momentum"": 0.19904521026579755, ""batch_size"": 64}",0.5207942024694276,True
+diabetes,SGD,15,expected_improvement,"{""learning_rate"": 0.01238299586699449, ""momentum"": 0.17888270768272205, ""batch_size"": 16}",0.5105978719536661,True
+diabetes,SGD,16,expected_improvement,"{""learning_rate"": 0.0076924496973398895, ""momentum"": 0.0, ""batch_size"": 16}",0.5118722341482174,True
+diabetes,SGD,17,expected_improvement,"{""learning_rate"": 0.010067893617795837, ""momentum"": 0.5477787985313592, ""batch_size"": 16}",0.5157171968200428,True
+diabetes,SGD,18,expected_improvement,"{""learning_rate"": 0.008138752141134794, ""momentum"": 0.5059739721310514, ""batch_size"": 32}",0.5114010565092755,True
+diabetes,SGD,19,expected_improvement,"{""learning_rate"": 0.008924705325600508, ""momentum"": 0.23194772177504855, ""batch_size"": 16}",0.5086066206561431,True
+diabetes,SGD,20,expected_improvement,"{""learning_rate"": 0.2946977797305601, ""momentum"": 0.017959469155229554, ""batch_size"": 32}",0.6664680153708161,True
+diabetes,SGD,21,expected_improvement,"{""learning_rate"": 0.006523769571659448, ""momentum"": 0.35294937906829704, ""batch_size"": 16}",0.5087453484709812,True
+diabetes,SGD,22,expected_improvement,"{""learning_rate"": 0.007566129619006005, ""momentum"": 0.299400411597572, ""batch_size"": 16}",0.508544893297235,True
+diabetes,SGD,23,expected_improvement,"{""learning_rate"": 0.003075358346158206, ""momentum"": 0.9698389012407065, ""batch_size"": 16}",0.5360132528971551,True
+diabetes,SGD,24,expected_improvement,"{""learning_rate"": 0.006601669571501255, ""momentum"": 0.4351876024631158, ""batch_size"": 16}",0.508289541556046,True
+diabetes,SGD,25,expected_improvement,"{""learning_rate"": 0.02023223487165654, ""momentum"": 0.14927516704498342, ""batch_size"": 32}",0.5121058028388799,True
+diabetes,SGD,26,expected_improvement,"{""learning_rate"": 0.006845038112840578, ""momentum"": 0.4097868434352835, ""batch_size"": 16}",0.5083236978791524,True
+diabetes,SGD,27,expected_improvement,"{""learning_rate"": 0.005541017753506038, ""momentum"": 0.5326360951440801, ""batch_size"": 16}",0.5081322543463413,True
+diabetes,SGD,28,expected_improvement,"{""learning_rate"": 0.0056080155382389205, ""momentum"": 0.5153913184429485, ""batch_size"": 16}",0.5081350699732876,True
+diabetes,SGD,29,expected_improvement,"{""learning_rate"": 0.005999222484767166, ""momentum"": 0.5302173837239906, ""batch_size"": 16}",0.5084076994837063,True
+diabetes,SGD,30,expected_improvement,"{""learning_rate"": 0.005054305096679763, ""momentum"": 0.5478763230070693, ""batch_size"": 16}",0.5080793713369481,True
+diabetes,SGD,31,expected_improvement,"{""learning_rate"": 0.012022556948877685, ""momentum"": 0.30581432398005637, ""batch_size"": 32}",0.511558794940839,True
+diabetes,SGD,32,expected_improvement,"{""learning_rate"": 0.005196039227367865, ""momentum"": 0.5475604139525203, ""batch_size"": 16}",0.5080688846457135,True
+diabetes,SGD,33,expected_improvement,"{""learning_rate"": 0.005150383773541579, ""momentum"": 0.546576572883948, ""batch_size"": 16}",0.5080710230637762,True
+diabetes,SGD,34,expected_improvement,"{""learning_rate"": 0.005245817118159646, ""momentum"": 0.537030886155485, ""batch_size"": 16}",0.508090509924952,True
+diabetes,SGD,35,expected_improvement,"{""learning_rate"": 0.00502151733535089, ""momentum"": 0.5729919768163618, ""batch_size"": 16}",0.508035388073905,True
+diabetes,SGD,36,expected_improvement,"{""learning_rate"": 0.004609664562314131, ""momentum"": 0.6081854753076368, ""batch_size"": 16}",0.5079565587537548,True
+diabetes,SGD,37,expected_improvement,"{""learning_rate"": 0.004597258057268192, ""momentum"": 0.6013461007847228, ""batch_size"": 16}",0.5079557027543292,True
+diabetes,SGD,38,expected_improvement,"{""learning_rate"": 0.004103139170891944, ""momentum"": 0.6350113751932634, ""batch_size"": 16}",0.5078842857287765,True
+diabetes,SGD,39,expected_improvement,"{""learning_rate"": 0.004084229699691038, ""momentum"": 0.6565701721627164, ""batch_size"": 16}",0.5078489861003302,True
+diabetes,SGD,40,expected_improvement,"{""learning_rate"": 0.0039248887494818, ""momentum"": 0.6538348608350638, ""batch_size"": 16}",0.5078295860899318,True
+diabetes,SGD,41,expected_improvement,"{""learning_rate"": 0.005094479911848376, ""momentum"": 0.7328463714677056, ""batch_size"": 32}",0.5096990996663143,True
+diabetes,SGD,42,expected_improvement,"{""learning_rate"": 0.003726146034171021, ""momentum"": 0.6747327793153933, ""batch_size"": 16}",0.5077680156223838,True
+diabetes,SGD,43,expected_improvement,"{""learning_rate"": 0.0010000000000000002, ""momentum"": 0.8876866053753937, ""batch_size"": 16}",0.5085324117363095,True
+diabetes,SGD,44,expected_improvement,"{""learning_rate"": 0.0014712124446122428, ""momentum"": 0.7971161694642993, ""batch_size"": 16}",0.5117079676404191,True
+diabetes,SGD,45,expected_improvement,"{""learning_rate"": 0.0012160698173658887, ""momentum"": 0.9507891999980101, ""batch_size"": 32}",0.5112787611827873,True
+diabetes,SGD,46,expected_improvement,"{""learning_rate"": 0.0010000000000000002, ""momentum"": 0.9422742861004019, ""batch_size"": 16}",0.5095623785322791,True
+diabetes,SGD,47,expected_improvement,"{""learning_rate"": 0.0010018613069287903, ""momentum"": 0.9642770353524147, ""batch_size"": 32}",0.5132734565129182,True
+diabetes,SGD,48,expected_improvement,"{""learning_rate"": 0.0025755302355959736, ""momentum"": 0.8608429321759592, ""batch_size"": 32}",0.5094581375179035,True
+diabetes,SGD,49,expected_improvement,"{""learning_rate"": 0.003385978505099345, ""momentum"": 0.6978831916987408, ""batch_size"": 16}",0.5077149944531875,True
+diabetes,SCG,1,default,"{""sigma"": 0.0001, ""lambda_1"": 1e-06}",0.5628931153813345,True
+diabetes,SCG,2,latin_hypercube,"{""sigma"": 0.00037778729910359517, ""lambda_1"": 1.3666687511940684e-05}",0.5613944866970682,True
+diabetes,SCG,3,latin_hypercube,"{""sigma"": 1.6005988827464724e-05, ""lambda_1"": 8.397183682049798e-08}",0.5640571802514571,True
+diabetes,SCG,4,latin_hypercube,"{""sigma"": 0.00018863732446166589, ""lambda_1"": 1.5425489927326792e-06}",0.5621108309495598,True
+diabetes,SCG,5,latin_hypercube,"{""sigma"": 5.159542784226966e-05, ""lambda_1"": 2.608737129013935e-07}",0.5651924061405532,True
+diabetes,SCG,6,expected_improvement,"{""sigma"": 0.0001804577363795547, ""lambda_1"": 5.7072743998595e-06}",0.5634858305071859,True
+diabetes,SCG,7,expected_improvement,"{""sigma"": 0.0002168759583364721, ""lambda_1"": 1.8818983370341023e-05}",0.5657207980350029,True
+diabetes,SCG,8,expected_improvement,"{""sigma"": 0.00036938021268420205, ""lambda_1"": 1.0704374439571373e-05}",0.5626218448006759,True
+diabetes,SCG,9,expected_improvement,"{""sigma"": 0.0003724752558185173, ""lambda_1"": 1.588712660453909e-05}",0.5611519252061224,True
+diabetes,LeapFrog,1,default,"{""dt"": 0.5, ""max_step"": 1.0, ""m"": 3, ""delta_1"": 0.001}",0.5456828099779741,True
+diabetes,LeapFrog,2,latin_hypercube,"{""dt"": 0.7723895146170845, ""max_step"": 1.4453287837469526, ""m"": 4, ""delta_1"": 0.001}",0.5795739940934276,True
+diabetes,LeapFrog,3,latin_hypercube,"{""dt"": 0.20769987164865775, ""max_step"": 1.6997055259414633, ""m"": 5, ""delta_1"": 0.001}",0.6094369191089823,True
+diabetes,LeapFrog,4,latin_hypercube,"{""dt"": 0.3902693529794042, ""max_step"": 0.6010364015325065, ""m"": 3, ""delta_1"": 0.001}",0.5427687768921248,True
+diabetes,LeapFrog,5,latin_hypercube,"{""dt"": 0.11727721416470062, ""max_step"": 1.171475548760963, ""m"": 2, ""delta_1"": 0.001}",0.5681874436086923,True
+diabetes,LeapFrog,6,expected_improvement,"{""dt"": 0.2045212353271528, ""max_step"": 0.5, ""m"": 3, ""delta_1"": 0.001}",0.5615928889777163,True
+diabetes,LeapFrog,7,expected_improvement,"{""dt"": 0.47635329098102314, ""max_step"": 1.7317133002149832, ""m"": 2, ""delta_1"": 0.001}",0.5624306668881641,True
+diabetes,LeapFrog,8,expected_improvement,"{""dt"": 0.9893070034434045, ""max_step"": 0.7139406557763075, ""m"": 2, ""delta_1"": 0.001}",0.5477695019423598,True
+diabetes,LeapFrog,9,expected_improvement,"{""dt"": 0.675472083667203, ""max_step"": 0.5, ""m"": 3, ""delta_1"": 0.001}",0.5427267943718871,True
+diabetes,LeapFrog,10,expected_improvement,"{""dt"": 0.4913794465806923, ""max_step"": 0.5, ""m"": 3, ""delta_1"": 0.001}",0.5743466404207618,True
+diabetes,LeapFrog,11,expected_improvement,"{""dt"": 0.6620430210375383, ""max_step"": 0.5, ""m"": 3, ""delta_1"": 0.001}",0.5459194100048056,True
+diabetes,LeapFrog,12,expected_improvement,"{""dt"": 0.7571147073074315, ""max_step"": 0.5, ""m"": 3, ""delta_1"": 0.001}",0.5367480527311205,True
+diabetes,LeapFrog,13,expected_improvement,"{""dt"": 0.7502170465175457, ""max_step"": 0.510890758445965, ""m"": 3, ""delta_1"": 0.001}",0.555571732890077,True
+diabetes,LeapFrog,14,expected_improvement,"{""dt"": 0.41198137329071455, ""max_step"": 0.6163853890035814, ""m"": 3, ""delta_1"": 0.001}",0.55817952301415,True
+diabetes,LeapFrog,15,expected_improvement,"{""dt"": 0.5097436806772717, ""max_step"": 0.5872121072661308, ""m"": 3, ""delta_1"": 0.001}",0.5457730368431172,True
+diabetes,LeapFrog,16,expected_improvement,"{""dt"": 0.38340033299356713, ""max_step"": 0.59030295150784, ""m"": 3, ""delta_1"": 0.001}",0.5842874287291793,True
+diabetes,LeapFrog,17,expected_improvement,"{""dt"": 0.7680533553867983, ""max_step"": 0.5, ""m"": 3, ""delta_1"": 0.001}",0.5454212575042575,True
+diabetes,LeapFrog,18,expected_improvement,"{""dt"": 0.6891450471055951, ""max_step"": 0.508385180969794, ""m"": 3, ""delta_1"": 0.001}",0.5403678797611049,True
+diabetes,LeapFrog,19,expected_improvement,"{""dt"": 0.734080284165966, ""max_step"": 0.5, ""m"": 3, ""delta_1"": 0.001}",0.5419556674626447,True
+diabetes,LeapFrog,20,expected_improvement,"{""dt"": 0.67735267915953, ""max_step"": 0.5333206859465945, ""m"": 3, ""delta_1"": 0.001}",0.540961647046813,True
+diabetes,LeapFrog,21,expected_improvement,"{""dt"": 0.39111375058593406, ""max_step"": 0.608053332353341, ""m"": 3, ""delta_1"": 0.001}",0.5425293154529813,True
+diabetes,LeapFrog,22,expected_improvement,"{""dt"": 0.6529957263412101, ""max_step"": 0.5238948322031861, ""m"": 3, ""delta_1"": 0.001}",0.5506842407952963,True
+diabetes,LeapFrog,23,expected_improvement,"{""dt"": 0.6938086837012258, ""max_step"": 0.5272399665338998, ""m"": 2, ""delta_1"": 0.001}",0.5449112933553959,True
+diabetes,LeapFrog,24,expected_improvement,"{""dt"": 0.6748670151214796, ""max_step"": 0.5479810827123264, ""m"": 3, ""delta_1"": 0.001}",0.5420403954490502,True
+diabetes,LeapFrog,25,expected_improvement,"{""dt"": 0.7214324561207999, ""max_step"": 0.5, ""m"": 3, ""delta_1"": 0.001}",0.5336945816394283,True
+diabetes,LeapFrog,26,expected_improvement,"{""dt"": 0.6791840374267208, ""max_step"": 1.4923470017556675, ""m"": 3, ""delta_1"": 0.001}",0.5416047523434953,True
+diabetes,LeapFrog,27,expected_improvement,"{""dt"": 0.7224903769839788, ""max_step"": 1.454783489046246, ""m"": 4, ""delta_1"": 0.001}",0.5378123668369874,True
+diabetes,LeapFrog,28,expected_improvement,"{""dt"": 0.5063731948833669, ""max_step"": 1.7774864478991, ""m"": 4, ""delta_1"": 0.001}",0.543502669299877,True
+diabetes,LeapFrog,29,expected_improvement,"{""dt"": 0.9445997890287935, ""max_step"": 0.5, ""m"": 3, ""delta_1"": 0.001}",0.5478581613490984,True
+diabetes,LeapFrog,30,expected_improvement,"{""dt"": 0.900669357759156, ""max_step"": 0.777323474727015, ""m"": 5, ""delta_1"": 0.001}",0.5499600173923446,True
+diabetes,LeapFrog,31,expected_improvement,"{""dt"": 0.5341136578859468, ""max_step"": 1.9603132011548046, ""m"": 2, ""delta_1"": 0.001}",0.5535764655692665,True
+diabetes,LeapFrog,32,expected_improvement,"{""dt"": 0.1874728029632225, ""max_step"": 0.5167428798130782, ""m"": 3, ""delta_1"": 0.001}",0.5485085687167409,True
+diabetes,LeapFrog,33,expected_improvement,"{""dt"": 0.7070435765618116, ""max_step"": 0.5, ""m"": 4, ""delta_1"": 0.001}",0.5434341752256373,True
+diabetes,LeapFrog,34,expected_improvement,"{""dt"": 0.17843328703369327, ""max_step"": 0.7460429340834417, ""m"": 5, ""delta_1"": 0.001}",0.583842940191398,True
+diabetes,LeapFrog,35,expected_improvement,"{""dt"": 0.7316951731415131, ""max_step"": 1.4721219656196263, ""m"": 3, ""delta_1"": 0.001}",0.5620996166039335,True
+diabetes,LeapFrog,36,expected_improvement,"{""dt"": 0.7108422106836659, ""max_step"": 1.7276524428574849, ""m"": 4, ""delta_1"": 0.001}",0.5410090431116076,True
+airfoil,SGD,1,default,"{""learning_rate"": 0.01, ""momentum"": 0.9, ""batch_size"": 32}",0.1441241093229885,True
+airfoil,SGD,2,latin_hypercube,"{""learning_rate"": 0.0014067524557511474, ""momentum"": 0.6729412297507915, ""batch_size"": 32}",0.3767051837550587,True
+airfoil,SGD,3,latin_hypercube,"{""learning_rate"": 0.031445160176296824, ""momentum"": 0.45876121391479613, ""batch_size"": 16}",0.1524742046590132,True
+airfoil,SGD,4,latin_hypercube,"{""learning_rate"": 0.15136780208298564, ""momentum"": 0.09178609786296327, ""batch_size"": 64}",0.1486180541881955,True
+airfoil,SGD,5,latin_hypercube,"{""learning_rate"": 0.004567249282986279, ""momentum"": 0.9711281255133859, ""batch_size"": 32}",0.1307438456012375,True
+airfoil,SGD,6,expected_improvement,"{""learning_rate"": 0.10058547847064192, ""momentum"": 0.26982847126442966, ""batch_size"": 16}",0.1934101521909701,True
+airfoil,SGD,7,expected_improvement,"{""learning_rate"": 0.03426405249411604, ""momentum"": 0.6327995506998755, ""batch_size"": 64}",0.1954250504891022,True
+airfoil,SGD,8,expected_improvement,"{""learning_rate"": 0.2327592999841102, ""momentum"": 0.23552631459903978, ""batch_size"": 64}",0.1359949556821875,True
+airfoil,SGD,9,expected_improvement,"{""learning_rate"": 0.21094083984744222, ""momentum"": 0.6387952380746422, ""batch_size"": 16}",0.2592008853440172,True
+airfoil,SGD,10,expected_improvement,"{""learning_rate"": 0.0013005022745037449, ""momentum"": 0.9704711309797234, ""batch_size"": 16}",0.1509664626717724,True
+airfoil,SGD,11,expected_improvement,"{""learning_rate"": 0.1435192086714584, ""momentum"": 0.9724490967644838, ""batch_size"": 16}",7.127500938912064e+244,False
+airfoil,SGD,12,expected_improvement,"{""learning_rate"": 0.288109890640527, ""momentum"": 0.4985067057631517, ""batch_size"": 32}",0.1232004733288796,True
+airfoil,SGD,13,expected_improvement,"{""learning_rate"": 0.001312598178191556, ""momentum"": 0.00173229287325959, ""batch_size"": 64}",0.4738194353351552,True
+airfoil,SGD,14,expected_improvement,"{""learning_rate"": 0.004823586903412374, ""momentum"": 0.8110447360312706, ""batch_size"": 32}",0.233961667445272,True
+airfoil,SGD,15,expected_improvement,"{""learning_rate"": 0.0010277470260734332, ""momentum"": 0.6941728695416309, ""batch_size"": 16}",0.3356605856665883,True
+airfoil,SGD,16,expected_improvement,"{""learning_rate"": 0.001304357409019263, ""momentum"": 0.3301847960712962, ""batch_size"": 16}",0.3856383086784738,True
+airfoil,SGD,17,expected_improvement,"{""learning_rate"": 0.014835121017434805, ""momentum"": 0.004176813397422576, ""batch_size"": 64}",0.3263003781548032,True
+airfoil,SGD,18,expected_improvement,"{""learning_rate"": 0.10903447529043656, ""momentum"": 0.5526135207560976, ""batch_size"": 32}",0.1231021677352964,True
+airfoil,SGD,19,expected_improvement,"{""learning_rate"": 0.009894584085009811, ""momentum"": 0.23869632387724182, ""batch_size"": 16}",0.2341006543717804,True
+airfoil,SGD,20,expected_improvement,"{""learning_rate"": 0.0023121468592273626, ""momentum"": 0.0031473583829223317, ""batch_size"": 32}",0.4235406310585677,True
+airfoil,SGD,21,expected_improvement,"{""learning_rate"": 0.28904233361090376, ""momentum"": 0.011991353784372846, ""batch_size"": 16}",0.2970391553072061,True
+airfoil,SGD,22,expected_improvement,"{""learning_rate"": 0.005807215480152661, ""momentum"": 0.4408626982582428, ""batch_size"": 64}",0.3592261887723499,True
+airfoil,SGD,23,expected_improvement,"{""learning_rate"": 0.004752513159559833, ""momentum"": 0.899408708816682, ""batch_size"": 16}",0.1421333488120833,True
+airfoil,SGD,24,expected_improvement,"{""learning_rate"": 0.3, ""momentum"": 0.4745290222986879, ""batch_size"": 32}",0.1295329112980747,True
+airfoil,SGD,25,expected_improvement,"{""learning_rate"": 0.08566945927202606, ""momentum"": 0.14292251257351954, ""batch_size"": 16}",0.1993834794304342,True
+airfoil,SGD,26,expected_improvement,"{""learning_rate"": 0.08715499742635346, ""momentum"": 0.8108176674545268, ""batch_size"": 32}",0.1180477430907183,True
+airfoil,SGD,27,expected_improvement,"{""learning_rate"": 0.012262248345831974, ""momentum"": 0.9511751804182061, ""batch_size"": 16}",0.1204322502611875,True
+airfoil,SGD,28,expected_improvement,"{""learning_rate"": 0.0035016320297758534, ""momentum"": 0.006628916879978797, ""batch_size"": 64}",0.4382898293766685,True
+airfoil,SGD,29,expected_improvement,"{""learning_rate"": 0.28454868540965794, ""momentum"": 0.5080613213392153, ""batch_size"": 64}",0.1270469700711579,True
+airfoil,SGD,30,expected_improvement,"{""learning_rate"": 0.01790134143103163, ""momentum"": 0.48236943612907557, ""batch_size"": 16}",0.1697091958514235,True
+airfoil,SGD,31,expected_improvement,"{""learning_rate"": 0.2922681812372294, ""momentum"": 0.4624870390820603, ""batch_size"": 16}",0.2604109988041209,True
+airfoil,SGD,32,expected_improvement,"{""learning_rate"": 0.05740549402113491, ""momentum"": 0.6178692488648754, ""batch_size"": 32}",0.1278148742967328,True
+airfoil,SGD,33,expected_improvement,"{""learning_rate"": 0.29727804813725495, ""momentum"": 0.99, ""batch_size"": 32}",1.989077586528652e+217,False
+airfoil,SGD,34,expected_improvement,"{""learning_rate"": 0.05156010802077002, ""momentum"": 0.7533305180497397, ""batch_size"": 32}",0.126770344415183,True
+airfoil,SGD,35,expected_improvement,"{""learning_rate"": 0.022760025258518977, ""momentum"": 0.2005085156603926, ""batch_size"": 64}",0.2736252989235107,True
+airfoil,SGD,36,expected_improvement,"{""learning_rate"": 0.09489296890207874, ""momentum"": 0.4032382955499358, ""batch_size"": 64}",0.1511255540440341,True
+airfoil,SGD,37,expected_improvement,"{""learning_rate"": 0.3, ""momentum"": 0.7592173393543162, ""batch_size"": 64}",0.1337018950076789,True
+airfoil,SGD,38,expected_improvement,"{""learning_rate"": 0.024072654304747095, ""momentum"": 0.8477246422240744, ""batch_size"": 64}",0.1590612931236957,True
+airfoil,SGD,39,expected_improvement,"{""learning_rate"": 0.3, ""momentum"": 0.9256494650862458, ""batch_size"": 64}",0.2059208450242249,True
+airfoil,SGD,40,expected_improvement,"{""learning_rate"": 0.0015519910420753141, ""momentum"": 0.7437879494790663, ""batch_size"": 64}",0.4058075749237692,True
+airfoil,SGD,41,expected_improvement,"{""learning_rate"": 0.004304475950896492, ""momentum"": 0.9892313122126679, ""batch_size"": 64}",0.124647514378102,True
+airfoil,SGD,42,expected_improvement,"{""learning_rate"": 0.033670514348289354, ""momentum"": 0.9850035447197409, ""batch_size"": 64}",0.1335828667899759,True
+airfoil,SGD,43,expected_improvement,"{""learning_rate"": 0.0013971987984047376, ""momentum"": 0.26889904971505124, ""batch_size"": 64}",0.4620582666228155,True
+airfoil,SGD,44,expected_improvement,"{""learning_rate"": 0.21722702942345312, ""momentum"": 0.6500544199495626, ""batch_size"": 64}",0.1251122040617837,True
+airfoil,SGD,45,expected_improvement,"{""learning_rate"": 0.17836067629565855, ""momentum"": 0.7473094388897669, ""batch_size"": 32}",0.1269755447869031,True
+airfoil,SGD,46,expected_improvement,"{""learning_rate"": 0.0011222639614131423, ""momentum"": 0.9125872770465593, ""batch_size"": 64}",0.3408213720113255,True
+airfoil,SGD,47,expected_improvement,"{""learning_rate"": 0.04268657953904497, ""momentum"": 0.0028675118990308312, ""batch_size"": 16}",0.1889882954692033,True
+airfoil,SGD,48,expected_improvement,"{""learning_rate"": 0.001040592166041875, ""momentum"": 0.5753678071248696, ""batch_size"": 64}",0.4535269957648474,True
+airfoil,SGD,49,expected_improvement,"{""learning_rate"": 0.0010828163907988166, ""momentum"": 0.17240760820642342, ""batch_size"": 16}",0.4161057688607711,True
+airfoil,SCG,1,default,"{""sigma"": 0.0001, ""lambda_1"": 1e-06}",0.1372765388317608,True
+airfoil,SCG,2,latin_hypercube,"{""sigma"": 2.339552827849172e-05, ""lambda_1"": 2.9757177220315835e-05}",0.1395359676298832,True
+airfoil,SCG,3,latin_hypercube,"{""sigma"": 0.00016323407561402023, ""lambda_1"": 2.687578093144957e-07}",0.1410703578912474,True
+airfoil,SCG,4,latin_hypercube,"{""sigma"": 0.0004088747652313637, ""lambda_1"": 1.3474679479875723e-06}",0.1420075763177575,True
+airfoil,SCG,5,latin_hypercube,"{""sigma"": 5.746739281932776e-05, ""lambda_1"": 1.7896521427479884e-08}",0.1400266154210386,True
+airfoil,SCG,6,expected_improvement,"{""sigma"": 9.860672254789119e-05, ""lambda_1"": 9.73306591031619e-07}",0.1383583041581525,True
+airfoil,SCG,7,expected_improvement,"{""sigma"": 0.00010181284056631881, ""lambda_1"": 1.0330447895404503e-06}",0.1372940808365112,True
+airfoil,SCG,8,expected_improvement,"{""sigma"": 0.00010191416793199356, ""lambda_1"": 9.605059389025254e-07}",0.1387378819885824,True
+airfoil,SCG,9,expected_improvement,"{""sigma"": 0.00015189642911135547, ""lambda_1"": 1.0249284836378804e-06}",0.1419058882235858,True
+airfoil,LeapFrog,1,default,"{""dt"": 0.5, ""max_step"": 1.0, ""m"": 3, ""delta_1"": 0.001}",0.1301393543424309,True
+airfoil,LeapFrog,2,latin_hypercube,"{""dt"": 0.7155520049182008, ""max_step"": 1.8640728622796063, ""m"": 5, ""delta_1"": 0.001}",0.1214047206797715,True
+airfoil,LeapFrog,3,latin_hypercube,"{""dt"": 0.10744991661062439, ""max_step"": 0.764061204102704, ""m"": 4, ""delta_1"": 0.001}",0.1455847898927906,True
+airfoil,LeapFrog,4,latin_hypercube,"{""dt"": 0.26653710515868123, ""max_step"": 1.560076436228428, ""m"": 3, ""delta_1"": 0.001}",0.1370525470080656,True
+airfoil,LeapFrog,5,latin_hypercube,"{""dt"": 0.37880704551540884, ""max_step"": 1.0214911665353812, ""m"": 2, ""delta_1"": 0.001}",0.1274027235175943,True
+airfoil,LeapFrog,6,expected_improvement,"{""dt"": 1.0, ""max_step"": 2.0, ""m"": 5, ""delta_1"": 0.001}",0.1230642402693287,True
+airfoil,LeapFrog,7,expected_improvement,"{""dt"": 0.9878870482608055, ""max_step"": 1.7683597278066052, ""m"": 2, ""delta_1"": 0.001}",0.1227979236500659,True
+airfoil,LeapFrog,8,expected_improvement,"{""dt"": 0.5108978240089758, ""max_step"": 0.6095504983983292, ""m"": 5, ""delta_1"": 0.001}",0.1279241795010025,True
+airfoil,LeapFrog,9,expected_improvement,"{""dt"": 0.9961704725386625, ""max_step"": 0.6965568452438673, ""m"": 2, ""delta_1"": 0.001}",0.1220642430899073,True
+airfoil,LeapFrog,10,expected_improvement,"{""dt"": 0.9876291895521706, ""max_step"": 0.559993273789287, ""m"": 3, ""delta_1"": 0.001}",0.1139015400855476,True
+airfoil,LeapFrog,11,expected_improvement,"{""dt"": 1.0, ""max_step"": 0.5, ""m"": 4, ""delta_1"": 0.001}",0.1229115390306402,True
+airfoil,LeapFrog,12,expected_improvement,"{""dt"": 0.8781052130427038, ""max_step"": 1.8213259438185954, ""m"": 3, ""delta_1"": 0.001}",0.1204712804096986,True
+airfoil,LeapFrog,13,expected_improvement,"{""dt"": 1.0, ""max_step"": 1.0433511747964754, ""m"": 3, ""delta_1"": 0.001}",0.1239900541218523,True
+airfoil,LeapFrog,14,expected_improvement,"{""dt"": 1.0, ""max_step"": 0.5, ""m"": 3, ""delta_1"": 0.001}",0.1247323262605872,True
+airfoil,LeapFrog,15,expected_improvement,"{""dt"": 1.0, ""max_step"": 0.5765104039466626, ""m"": 4, ""delta_1"": 0.001}",0.1155407124670615,True
+airfoil,LeapFrog,16,expected_improvement,"{""dt"": 0.9252907148659224, ""max_step"": 0.5427085382963068, ""m"": 5, ""delta_1"": 0.001}",0.1254244950883743,True
+airfoil,LeapFrog,17,expected_improvement,"{""dt"": 1.0, ""max_step"": 0.5935786659122924, ""m"": 3, ""delta_1"": 0.001}",0.1235059691909954,True
+airfoil,LeapFrog,18,expected_improvement,"{""dt"": 0.8743793550123632, ""max_step"": 0.5659334904235647, ""m"": 2, ""delta_1"": 0.001}",0.1255123773433908,True
+airfoil,LeapFrog,19,expected_improvement,"{""dt"": 1.0, ""max_step"": 0.5611565890171202, ""m"": 4, ""delta_1"": 0.001}",0.1163545880113787,True
+airfoil,LeapFrog,20,expected_improvement,"{""dt"": 0.978649799007976, ""max_step"": 0.58294690399188, ""m"": 3, ""delta_1"": 0.001}",0.1155496161470208,True
+airfoil,LeapFrog,21,expected_improvement,"{""dt"": 0.9809926772169163, ""max_step"": 0.5, ""m"": 3, ""delta_1"": 0.001}",0.120219863384966,True
+airfoil,LeapFrog,22,expected_improvement,"{""dt"": 0.9826985863003426, ""max_step"": 0.552375069265559, ""m"": 3, ""delta_1"": 0.001}",0.1212241262126747,True
+airfoil,LeapFrog,23,expected_improvement,"{""dt"": 0.987309118739992, ""max_step"": 0.5672279222953881, ""m"": 2, ""delta_1"": 0.001}",0.1182168763061909,True
+airfoil,LeapFrog,24,expected_improvement,"{""dt"": 1.0, ""max_step"": 0.5658951746952842, ""m"": 3, ""delta_1"": 0.001}",0.123339019664647,True
+airfoil,LeapFrog,25,expected_improvement,"{""dt"": 0.9653283520262637, ""max_step"": 0.5684181695645221, ""m"": 3, ""delta_1"": 0.001}",0.1200636063794503,True
+airfoil,LeapFrog,26,expected_improvement,"{""dt"": 0.9859922944411894, ""max_step"": 0.5778307064016137, ""m"": 3, ""delta_1"": 0.001}",0.1169208032188178,True
+airfoil,LeapFrog,27,expected_improvement,"{""dt"": 1.0, ""max_step"": 0.5927076065654584, ""m"": 4, ""delta_1"": 0.001}",0.1226964558153676,True
+airfoil,LeapFrog,28,expected_improvement,"{""dt"": 0.9862869465428222, ""max_step"": 0.5650593390616587, ""m"": 3, ""delta_1"": 0.001}",0.1159431834575406,True
+airfoil,LeapFrog,29,expected_improvement,"{""dt"": 0.9553835745476132, ""max_step"": 0.5970489383556394, ""m"": 3, ""delta_1"": 0.001}",0.1193205825078104,True
+airfoil,LeapFrog,30,expected_improvement,"{""dt"": 0.9860786594013927, ""max_step"": 0.5749923270929671, ""m"": 4, ""delta_1"": 0.001}",0.1169585229602907,True
+airfoil,LeapFrog,31,expected_improvement,"{""dt"": 1.0, ""max_step"": 0.5864447541020048, ""m"": 2, ""delta_1"": 0.001}",0.1205417061371466,True
+airfoil,LeapFrog,32,expected_improvement,"{""dt"": 0.9766757734186143, ""max_step"": 0.5531416005741644, ""m"": 4, ""delta_1"": 0.001}",0.1377144804821774,True
+airfoil,LeapFrog,33,expected_improvement,"{""dt"": 1.0, ""max_step"": 0.5843970683511869, ""m"": 5, ""delta_1"": 0.001}",0.1241644651694099,True
+airfoil,LeapFrog,34,expected_improvement,"{""dt"": 0.9615827425727647, ""max_step"": 0.6014034485859951, ""m"": 2, ""delta_1"": 0.001}",0.1185038782309091,True
+airfoil,LeapFrog,35,expected_improvement,"{""dt"": 0.9616199165035534, ""max_step"": 0.5817034785182401, ""m"": 2, ""delta_1"": 0.001}",0.1219128613632957,True
+airfoil,LeapFrog,36,expected_improvement,"{""dt"": 0.9415030181563364, ""max_step"": 0.5, ""m"": 3, ""delta_1"": 0.001}",0.122878058382897,True
+california,SGD,1,default,"{""learning_rate"": 0.01, ""momentum"": 0.9, ""batch_size"": 32}",0.2605521694930379,True
+california,SGD,2,latin_hypercube,"{""learning_rate"": 0.023929817371322944, ""momentum"": 0.020313362776197774, ""batch_size"": 16}",0.2580029474817856,True
+california,SGD,3,latin_hypercube,"{""learning_rate"": 0.0010335626901184826, ""momentum"": 0.3193526133506123, ""batch_size"": 64}",0.3631871645052515,True
+california,SGD,4,latin_hypercube,"{""learning_rate"": 0.01352881879780221, ""momentum"": 0.5586504414949466, ""batch_size"": 32}",0.2660479629803428,True
+california,SGD,5,latin_hypercube,"{""learning_rate"": 0.08989161179346275, ""momentum"": 0.7783023988279306, ""batch_size"": 32}",0.2618011311856331,True
+california,SGD,6,expected_improvement,"{""learning_rate"": 0.20975359962090573, ""momentum"": 0.9586806037992427, ""batch_size"": 16}",,False
+california,SGD,7,expected_improvement,"{""learning_rate"": 0.0027367102300212367, ""momentum"": 0.0, ""batch_size"": 16}",0.3154568341412583,True
+california,SGD,8,expected_improvement,"{""learning_rate"": 0.15433844280794148, ""momentum"": 0.0032077732456911832, ""batch_size"": 16}",0.2634872039066567,True
+california,SGD,9,expected_improvement,"{""learning_rate"": 0.07920556400286008, ""momentum"": 0.0, ""batch_size"": 32}",0.2553294630390567,True
+california,SGD,10,expected_improvement,"{""learning_rate"": 0.2994793581456472, ""momentum"": 0.07929974633008859, ""batch_size"": 16}",0.2711415630422241,True
+california,SGD,11,expected_improvement,"{""learning_rate"": 0.01319556275918468, ""momentum"": 0.9892518050007568, ""batch_size"": 64}",0.2630821165059604,True
+california,SGD,12,expected_improvement,"{""learning_rate"": 0.3, ""momentum"": 0.11872632908573559, ""batch_size"": 32}",0.263958112204909,True
+california,SGD,13,expected_improvement,"{""learning_rate"": 0.24514411074583756, ""momentum"": 0.04137197886102902, ""batch_size"": 16}",0.2666867872750679,True
+california,SGD,14,expected_improvement,"{""learning_rate"": 0.0010310263182753063, ""momentum"": 0.74966784690453, ""batch_size"": 64}",0.3418428822456621,True
+california,SGD,15,expected_improvement,"{""learning_rate"": 0.2830690186090344, ""momentum"": 0.47302193246880564, ""batch_size"": 32}",0.2709133871894402,True
+california,SGD,16,expected_improvement,"{""learning_rate"": 0.20467766170899543, ""momentum"": 0.9803112150931843, ""batch_size"": 32}",,False
+california,SGD,17,expected_improvement,"{""learning_rate"": 0.2579232250372353, ""momentum"": 0.0, ""batch_size"": 32}",0.2665471910339392,True
+california,SGD,18,expected_improvement,"{""learning_rate"": 0.060166497300611035, ""momentum"": 0.5836123238895046, ""batch_size"": 32}",0.2577247551321868,True
+california,SGD,19,expected_improvement,"{""learning_rate"": 0.050282634930054214, ""momentum"": 0.8894798256829503, ""batch_size"": 64}",0.2552698690919406,True
+california,SGD,20,expected_improvement,"{""learning_rate"": 0.12463194829080514, ""momentum"": 0.3724336700046363, ""batch_size"": 64}",0.2619944664913359,True
+california,SGD,21,expected_improvement,"{""learning_rate"": 0.001871785839010123, ""momentum"": 0.799365174769335, ""batch_size"": 16}",0.2802380711506634,True
+california,SGD,22,expected_improvement,"{""learning_rate"": 0.03919465459912035, ""momentum"": 0.7542985811607358, ""batch_size"": 64}",0.2578714270566477,True
+california,SGD,23,expected_improvement,"{""learning_rate"": 0.05544356492051834, ""momentum"": 0.8902086500414855, ""batch_size"": 16}",0.2656054553092857,True
+california,SGD,24,expected_improvement,"{""learning_rate"": 0.14007018994556372, ""momentum"": 0.6654825009695735, ""batch_size"": 32}",0.2586060903056177,True
+california,SGD,25,expected_improvement,"{""learning_rate"": 0.12625719697975885, ""momentum"": 0.13655257001379162, ""batch_size"": 16}",0.2617123103071834,True
+california,SGD,26,expected_improvement,"{""learning_rate"": 0.11488159093542395, ""momentum"": 0.7848974989126034, ""batch_size"": 32}",0.2690858219889538,True
+california,SGD,27,expected_improvement,"{""learning_rate"": 0.01850872242631074, ""momentum"": 0.48392349175505717, ""batch_size"": 32}",0.2626435336385996,True
+california,SGD,28,expected_improvement,"{""learning_rate"": 0.0043369617821333376, ""momentum"": 0.4851705328594129, ""batch_size"": 64}",0.3222065772970103,True
+california,SGD,29,expected_improvement,"{""learning_rate"": 0.007883835725203722, ""momentum"": 0.012573564998663299, ""batch_size"": 16}",0.2838685466995398,True
+california,SGD,30,expected_improvement,"{""learning_rate"": 0.001202182896643741, ""momentum"": 0.8660203859172032, ""batch_size"": 32}",0.3000992989807826,True
+california,SGD,31,expected_improvement,"{""learning_rate"": 0.17649374515090768, ""momentum"": 0.8556782616363118, ""batch_size"": 16}",0.2846008089461191,True
+california,SGD,32,expected_improvement,"{""learning_rate"": 0.09550719436951334, ""momentum"": 0.8171426730783602, ""batch_size"": 64}",0.260388143034154,True
+california,SGD,33,expected_improvement,"{""learning_rate"": 0.21526825535133273, ""momentum"": 0.2331430623632812, ""batch_size"": 32}",0.2627675091928192,True
+california,SGD,34,expected_improvement,"{""learning_rate"": 0.16168064206915558, ""momentum"": 0.8410196618189116, ""batch_size"": 32}",0.2962556106840889,True
+california,SGD,35,expected_improvement,"{""learning_rate"": 0.0017402838506561645, ""momentum"": 0.9889839846548947, ""batch_size"": 64}",0.2645654347677114,True
+california,SGD,36,expected_improvement,"{""learning_rate"": 0.0013221029414417478, ""momentum"": 0.695599755520543, ""batch_size"": 16}",0.3013774070352951,True
+california,SGD,37,expected_improvement,"{""learning_rate"": 0.16595412757196157, ""momentum"": 0.39650636118767285, ""batch_size"": 16}",0.2724463113865616,True
+california,SGD,38,expected_improvement,"{""learning_rate"": 0.006700118316467954, ""momentum"": 0.3134709464674845, ""batch_size"": 16}",0.2785885689290664,True
+california,SGD,39,expected_improvement,"{""learning_rate"": 0.02498927720916033, ""momentum"": 0.5788387522205051, ""batch_size"": 64}",0.266427122927338,True
+california,SGD,40,expected_improvement,"{""learning_rate"": 0.175075309379651, ""momentum"": 0.6562288268258012, ""batch_size"": 64}",0.255703529078118,True
+california,SGD,41,expected_improvement,"{""learning_rate"": 0.26458967491291774, ""momentum"": 0.2012648122080458, ""batch_size"": 64}",0.2714255616519206,True
+california,SGD,42,expected_improvement,"{""learning_rate"": 0.012925327671910222, ""momentum"": 0.3411188444049981, ""batch_size"": 32}",0.2785966659790501,True
+california,SGD,43,expected_improvement,"{""learning_rate"": 0.21780839862542098, ""momentum"": 0.008350800765994528, ""batch_size"": 32}",0.2624224111753498,True
+california,SGD,44,expected_improvement,"{""learning_rate"": 0.04478534636637434, ""momentum"": 0.11540091244791371, ""batch_size"": 64}",0.2721019690444771,True
+california,SGD,45,expected_improvement,"{""learning_rate"": 0.04371885725025067, ""momentum"": 0.684892323718818, ""batch_size"": 64}",0.2578975171762744,True
+california,SGD,46,expected_improvement,"{""learning_rate"": 0.07826681627959324, ""momentum"": 0.5666320295958815, ""batch_size"": 32}",0.2564689777499402,True
+california,SGD,47,expected_improvement,"{""learning_rate"": 0.040030770653480985, ""momentum"": 0.005427430003362269, ""batch_size"": 64}",0.2784846065929007,True
+california,SGD,48,expected_improvement,"{""learning_rate"": 0.001679029186890992, ""momentum"": 0.05737387622697435, ""batch_size"": 64}",0.3602135990628324,True
+california,SGD,49,expected_improvement,"{""learning_rate"": 0.087260266443225, ""momentum"": 0.2249409191384206, ""batch_size"": 32}",0.2569637915926971,True
+california,SCG,1,default,"{""sigma"": 0.0001, ""lambda_1"": 1e-06}",0.2594026276478378,True
+california,SCG,2,latin_hypercube,"{""sigma"": 4.06907529213551e-05, ""lambda_1"": 1.3904907950745373e-05}",0.2566002012581284,True
+california,SCG,3,latin_hypercube,"{""sigma"": 0.0004853536648087227, ""lambda_1"": 2.841995758601553e-08}",0.2586442837167252,True
+california,SCG,4,latin_hypercube,"{""sigma"": 0.0002003759737017382, ""lambda_1"": 2.439005007371684e-07}",0.2592066574904012,True
+california,SCG,5,latin_hypercube,"{""sigma"": 1.3347341770059e-05, ""lambda_1"": 5.551669493341502e-06}",0.2581596864353583,True
+california,SCG,6,expected_improvement,"{""sigma"": 4.035088702973048e-05, ""lambda_1"": 1.4526896631533582e-05}",0.2575963164026348,True
+california,SCG,7,expected_improvement,"{""sigma"": 4.0506547704794605e-05, ""lambda_1"": 1.3492534322313924e-05}",0.2586223212612918,True
+california,SCG,8,expected_improvement,"{""sigma"": 4.533674639252731e-05, ""lambda_1"": 1.3261295503495765e-05}",0.2603888452019871,True
+california,SCG,9,expected_improvement,"{""sigma"": 4.153350360858196e-05, ""lambda_1"": 1.4191507567555748e-05}",0.2569396045768167,True
+california,LeapFrog,1,default,"{""dt"": 0.5, ""max_step"": 1.0, ""m"": 3, ""delta_1"": 0.001}",0.2584056948015929,True
+california,LeapFrog,2,latin_hypercube,"{""dt"": 0.1590578113189538, ""max_step"": 1.332397711417284, ""m"": 3, ""delta_1"": 0.001}",0.2603268261495855,True
+california,LeapFrog,3,latin_hypercube,"{""dt"": 0.7816627824308456, ""max_step"": 1.6474129394585701, ""m"": 5, ""delta_1"": 0.001}",0.99970461676933,True
+california,LeapFrog,4,latin_hypercube,"{""dt"": 0.40869147678410067, ""max_step"": 1.06671648775732, ""m"": 2, ""delta_1"": 0.001}",0.2537582823296779,True
+california,LeapFrog,5,latin_hypercube,"{""dt"": 0.24529952867489319, ""max_step"": 0.5358779676388614, ""m"": 4, ""delta_1"": 0.001}",0.2553254721778775,True
+california,LeapFrog,6,expected_improvement,"{""dt"": 0.10363754753584167, ""max_step"": 1.9905139292051652, ""m"": 2, ""delta_1"": 0.001}",0.2625968211441628,True
+california,LeapFrog,7,expected_improvement,"{""dt"": 0.9783935214328019, ""max_step"": 0.5018529357624222, ""m"": 2, ""delta_1"": 0.001}",0.254179167942472,True
+california,LeapFrog,8,expected_improvement,"{""dt"": 0.135509553005023, ""max_step"": 1.9976565578861165, ""m"": 4, ""delta_1"": 0.001}",0.2619367092024688,True
+california,LeapFrog,9,expected_improvement,"{""dt"": 0.9778914475542366, ""max_step"": 1.4353761579808275, ""m"": 4, ""delta_1"": 0.001}",0.2543926749333479,True
+california,LeapFrog,10,expected_improvement,"{""dt"": 0.9944482668343624, ""max_step"": 0.529784964083365, ""m"": 4, ""delta_1"": 0.001}",0.2537700701640476,True
+california,LeapFrog,11,expected_improvement,"{""dt"": 0.206525599401275, ""max_step"": 0.8363800942026833, ""m"": 3, ""delta_1"": 0.001}",0.2610834838882351,True
+california,LeapFrog,12,expected_improvement,"{""dt"": 0.6231207406781561, ""max_step"": 0.5353033733243606, ""m"": 4, ""delta_1"": 0.001}",0.258676047948227,True
+california,LeapFrog,13,expected_improvement,"{""dt"": 0.9027002789410088, ""max_step"": 1.1923485232711264, ""m"": 5, ""delta_1"": 0.001}",0.2574049028962421,True
+california,LeapFrog,14,expected_improvement,"{""dt"": 0.18721959118226922, ""max_step"": 0.910158191932612, ""m"": 2, ""delta_1"": 0.001}",0.2604024171203701,True
+california,LeapFrog,15,expected_improvement,"{""dt"": 0.31909216043280736, ""max_step"": 0.5010210867354847, ""m"": 5, ""delta_1"": 0.001}",0.2549167780657457,True
+california,LeapFrog,16,expected_improvement,"{""dt"": 0.4281242564959325, ""max_step"": 0.9396683205580522, ""m"": 5, ""delta_1"": 0.001}",0.2588121888843951,True
+california,LeapFrog,17,expected_improvement,"{""dt"": 0.35114482793642776, ""max_step"": 1.5136939873929212, ""m"": 2, ""delta_1"": 0.001}",0.2565064096207759,True
+california,LeapFrog,18,expected_improvement,"{""dt"": 0.4272930509782753, ""max_step"": 1.7012212774356006, ""m"": 4, ""delta_1"": 0.001}",0.2568164654091926,True
+california,LeapFrog,19,expected_improvement,"{""dt"": 0.1325332414004742, ""max_step"": 1.811125571602639, ""m"": 3, ""delta_1"": 0.001}",0.2624917564500407,True
+california,LeapFrog,20,expected_improvement,"{""dt"": 0.3128857914139865, ""max_step"": 0.5069173760422719, ""m"": 3, ""delta_1"": 0.001}",0.2556257468730368,True
+california,LeapFrog,21,expected_improvement,"{""dt"": 0.19495612963854955, ""max_step"": 0.5020917514950156, ""m"": 4, ""delta_1"": 0.001}",0.2591789022469355,True
+california,LeapFrog,22,expected_improvement,"{""dt"": 0.10191660017241294, ""max_step"": 0.9911322051089972, ""m"": 4, ""delta_1"": 0.001}",0.2613869290678408,True
+california,LeapFrog,23,expected_improvement,"{""dt"": 0.2785028880463562, ""max_step"": 1.5614722178651688, ""m"": 4, ""delta_1"": 0.001}",0.2581635561642231,True
+california,LeapFrog,24,expected_improvement,"{""dt"": 0.7739985607977033, ""max_step"": 1.0701024354287623, ""m"": 5, ""delta_1"": 0.001}",0.2568939503979857,True
+california,LeapFrog,25,expected_improvement,"{""dt"": 0.47483964120815136, ""max_step"": 1.8448861344936043, ""m"": 4, ""delta_1"": 0.001}",0.2561605709745034,True
+california,LeapFrog,26,expected_improvement,"{""dt"": 0.10239691948249093, ""max_step"": 0.7577261681615937, ""m"": 4, ""delta_1"": 0.001}",0.2625166795961018,True
+california,LeapFrog,27,expected_improvement,"{""dt"": 0.8698059339841413, ""max_step"": 1.9750659374461004, ""m"": 3, ""delta_1"": 0.001}",0.2538828696340648,True
+california,LeapFrog,28,expected_improvement,"{""dt"": 0.11726002995259927, ""max_step"": 0.6423411975938145, ""m"": 3, ""delta_1"": 0.001}",0.2599841889362307,True
+california,LeapFrog,29,expected_improvement,"{""dt"": 0.37737203931667, ""max_step"": 0.6243106066908024, ""m"": 2, ""delta_1"": 0.001}",0.2582713235698846,True
+california,LeapFrog,30,expected_improvement,"{""dt"": 0.4829585342761026, ""max_step"": 1.7338901836817684, ""m"": 2, ""delta_1"": 0.001}",0.2535663589693055,True
+california,LeapFrog,31,expected_improvement,"{""dt"": 0.42704345821406775, ""max_step"": 1.6246815883715873, ""m"": 2, ""delta_1"": 0.001}",0.2555814371174839,True
+california,LeapFrog,32,expected_improvement,"{""dt"": 0.9800218671240419, ""max_step"": 1.6231414428714828, ""m"": 3, ""delta_1"": 0.001}",0.2550156740105251,True
+california,LeapFrog,33,expected_improvement,"{""dt"": 0.9662361758047114, ""max_step"": 1.9955058242248738, ""m"": 3, ""delta_1"": 0.001}",0.2534392454334366,True
+california,LeapFrog,34,expected_improvement,"{""dt"": 0.10383775170574282, ""max_step"": 0.7479008914297496, ""m"": 5, ""delta_1"": 0.001}",0.2580901802894192,True
+california,LeapFrog,35,expected_improvement,"{""dt"": 0.8913194592216728, ""max_step"": 0.8806559293436107, ""m"": 3, ""delta_1"": 0.001}",0.2603878670527603,True
+california,LeapFrog,36,expected_improvement,"{""dt"": 0.12604486580823113, ""max_step"": 1.482293395856075, ""m"": 3, ""delta_1"": 0.001}",0.2604286167378463,True

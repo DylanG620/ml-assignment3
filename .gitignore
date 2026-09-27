@@ -1,0 +1,9 @@
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

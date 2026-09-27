@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+jupyter
+torch          # only for 3_pytorch_version.ipynb
